@@ -1,0 +1,462 @@
+
+2025/03/18 13:12:44 | INFO | Args dump: {'file_regex': '/mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit*/*.xml', 'out_dir': '/mnt/d/datasets/processed/mros/', 'fill_blanks': None, 'extract_func': None, 'remove_offset': False, 'correct_zero_durations': None, 'overwrite': True, 'log_file': 'hyp_extraction_log'}
+
+2025/03/18 13:12:44 | INFO | Found 3930 files matching glob statement
+
+2025/03/18 13:12:44 | INFO | Saving .ids files to '/mnt/d/datasets/processed/mros'
+
+2025/03/18 13:12:44 | INFO | 1/3930 Processing mros-visit1-aa0001-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0001-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0001-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 2/3930 Processing mros-visit1-aa0003-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0003-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0003-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 3/3930 Processing mros-visit1-aa0005-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0005-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0005-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 4/3930 Processing mros-visit1-aa0006-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0006-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0006-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 5/3930 Processing mros-visit1-aa0009-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0009-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0009-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 6/3930 Processing mros-visit1-aa0012-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0012-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0012-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 7/3930 Processing mros-visit1-aa0013-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0013-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0013-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 8/3930 Processing mros-visit1-aa0014-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0014-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0014-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 9/3930 Processing mros-visit1-aa0015-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0015-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0015-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 10/3930 Processing mros-visit1-aa0018-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0018-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0018-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 11/3930 Processing mros-visit1-aa0019-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0019-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0019-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 12/3930 Processing mros-visit1-aa0021-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0021-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0021-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 13/3930 Processing mros-visit1-aa0024-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0024-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0024-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 14/3930 Processing mros-visit1-aa0025-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0025-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0025-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 15/3930 Processing mros-visit1-aa0026-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0026-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0026-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 16/3930 Processing mros-visit1-aa0027-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0027-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0027-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 17/3930 Processing mros-visit1-aa0028-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0028-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0028-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 18/3930 Processing mros-visit1-aa0029-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0029-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0029-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 19/3930 Processing mros-visit1-aa0030-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0030-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0030-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 20/3930 Processing mros-visit1-aa0031-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0031-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0031-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 21/3930 Processing mros-visit1-aa0032-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0032-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0032-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 22/3930 Processing mros-visit1-aa0033-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0033-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0033-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 23/3930 Processing mros-visit1-aa0034-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0034-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0034-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 24/3930 Processing mros-visit1-aa0035-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0035-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0035-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 25/3930 Processing mros-visit1-aa0042-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0042-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0042-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 26/3930 Processing mros-visit1-aa0045-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0045-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0045-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 27/3930 Processing mros-visit1-aa0047-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0047-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0047-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 28/3930 Processing mros-visit1-aa0048-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0048-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0048-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 29/3930 Processing mros-visit1-aa0051-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0051-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0051-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 30/3930 Processing mros-visit1-aa0052-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0052-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0052-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 31/3930 Processing mros-visit1-aa0053-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0053-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0053-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 32/3930 Processing mros-visit1-aa0062-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0062-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0062-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 33/3930 Processing mros-visit1-aa0063-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0063-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0063-nsrr.ids
+
+2025/03/18 13:12:45 | INFO | 34/3930 Processing mros-visit1-aa0064-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0064-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0064-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 35/3930 Processing mros-visit1-aa0065-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0065-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0065-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 36/3930 Processing mros-visit1-aa0077-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0077-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0077-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 37/3930 Processing mros-visit1-aa0079-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0079-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0079-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 38/3930 Processing mros-visit1-aa0084-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0084-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0084-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 39/3930 Processing mros-visit1-aa0085-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0085-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0085-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 40/3930 Processing mros-visit1-aa0086-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0086-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0086-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 41/3930 Processing mros-visit1-aa0087-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0087-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0087-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 42/3930 Processing mros-visit1-aa0088-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0088-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0088-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 43/3930 Processing mros-visit1-aa0089-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0089-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0089-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 44/3930 Processing mros-visit1-aa0092-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0092-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0092-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 45/3930 Processing mros-visit1-aa0094-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0094-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0094-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 46/3930 Processing mros-visit1-aa0100-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0100-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0100-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 47/3930 Processing mros-visit1-aa0101-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0101-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0101-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 48/3930 Processing mros-visit1-aa0105-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0105-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0105-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 49/3930 Processing mros-visit1-aa0107-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0107-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0107-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 50/3930 Processing mros-visit1-aa0111-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0111-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0111-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 51/3930 Processing mros-visit1-aa0114-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0114-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0114-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 52/3930 Processing mros-visit1-aa0116-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0116-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0116-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 53/3930 Processing mros-visit1-aa0120-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0120-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0120-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 54/3930 Processing mros-visit1-aa0121-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0121-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0121-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 55/3930 Processing mros-visit1-aa0125-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0125-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0125-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 56/3930 Processing mros-visit1-aa0126-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0126-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0126-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 57/3930 Processing mros-visit1-aa0129-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0129-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0129-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 58/3930 Processing mros-visit1-aa0132-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0132-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0132-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 59/3930 Processing mros-visit1-aa0136-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0136-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0136-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 60/3930 Processing mros-visit1-aa0137-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0137-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0137-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 61/3930 Processing mros-visit1-aa0138-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0138-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0138-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 62/3930 Processing mros-visit1-aa0141-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0141-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0141-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 63/3930 Processing mros-visit1-aa0142-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0142-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0142-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 64/3930 Processing mros-visit1-aa0145-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0145-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0145-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 65/3930 Processing mros-visit1-aa0146-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0146-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0146-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 66/3930 Processing mros-visit1-aa0147-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0147-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0147-nsrr.ids
+
+2025/03/18 13:12:46 | INFO | 67/3930 Processing mros-visit1-aa0149-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0149-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0149-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 68/3930 Processing mros-visit1-aa0150-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0150-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0150-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 69/3930 Processing mros-visit1-aa0151-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0151-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0151-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 70/3930 Processing mros-visit1-aa0152-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0152-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0152-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 71/3930 Processing mros-visit1-aa0153-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0153-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0153-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 72/3930 Processing mros-visit1-aa0157-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0157-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0157-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 73/3930 Processing mros-visit1-aa0159-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0159-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0159-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 74/3930 Processing mros-visit1-aa0160-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0160-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0160-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 75/3930 Processing mros-visit1-aa0162-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0162-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0162-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 76/3930 Processing mros-visit1-aa0164-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0164-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0164-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 77/3930 Processing mros-visit1-aa0167-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0167-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0167-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 78/3930 Processing mros-visit1-aa0168-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0168-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0168-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 79/3930 Processing mros-visit1-aa0169-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0169-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0169-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 80/3930 Processing mros-visit1-aa0170-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0170-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0170-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 81/3930 Processing mros-visit1-aa0172-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0172-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0172-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 82/3930 Processing mros-visit1-aa0174-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0174-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0174-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 83/3930 Processing mros-visit1-aa0176-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0176-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0176-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 84/3930 Processing mros-visit1-aa0177-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0177-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0177-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 85/3930 Processing mros-visit1-aa0179-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0179-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0179-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 86/3930 Processing mros-visit1-aa0180-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0180-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0180-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 87/3930 Processing mros-visit1-aa0181-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0181-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0181-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 88/3930 Processing mros-visit1-aa0183-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0183-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0183-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 89/3930 Processing mros-visit1-aa0184-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0184-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0184-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 90/3930 Processing mros-visit1-aa0185-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0185-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0185-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 91/3930 Processing mros-visit1-aa0187-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0187-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0187-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 92/3930 Processing mros-visit1-aa0194-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0194-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0194-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 93/3930 Processing mros-visit1-aa0195-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0195-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0195-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 94/3930 Processing mros-visit1-aa0196-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0196-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0196-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 95/3930 Processing mros-visit1-aa0200-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0200-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0200-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 96/3930 Processing mros-visit1-aa0202-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0202-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0202-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 97/3930 Processing mros-visit1-aa0203-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0203-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0203-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 98/3930 Processing mros-visit1-aa0205-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0205-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0205-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 99/3930 Processing mros-visit1-aa0206-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0206-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0206-nsrr.ids
+
+2025/03/18 13:12:47 | INFO | 100/3930 Processing mros-visit1-aa0207-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0207-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0207-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 101/3930 Processing mros-visit1-aa0208-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0208-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0208-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 102/3930 Processing mros-visit1-aa0211-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0211-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0211-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 103/3930 Processing mros-visit1-aa0212-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0212-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0212-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 104/3930 Processing mros-visit1-aa0213-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0213-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0213-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 105/3930 Processing mros-visit1-aa0214-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0214-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0214-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 106/3930 Processing mros-visit1-aa0216-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0216-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0216-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 107/3930 Processing mros-visit1-aa0218-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0218-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0218-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 108/3930 Processing mros-visit1-aa0219-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0219-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0219-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 109/3930 Processing mros-visit1-aa0222-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0222-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0222-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 110/3930 Processing mros-visit1-aa0225-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0225-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0225-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 111/3930 Processing mros-visit1-aa0226-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0226-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0226-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 112/3930 Processing mros-visit1-aa0231-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0231-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0231-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 113/3930 Processing mros-visit1-aa0235-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0235-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0235-nsrr.ids
+
+2025/03/18 13:12:48 | INFO | 114/3930 Processing mros-visit1-aa0236-nsrr
+-- In path    /mnt/d/datasets/mros/polysomnography/annotations-events-nsrr/visit1/mros-visit1-aa0236-nsrr.xml
+-- Out path   /mnt/d/datasets/processed/mros/visit1/mros-visit1-aa0236-nsrr.ids

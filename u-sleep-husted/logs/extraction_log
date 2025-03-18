@@ -1,0 +1,1284 @@
+
+2025/03/18 11:00:10 | INFO | Args dump: {'file_regex': '/mnt/d/datasets/mros/polysomnography/edfs/visit*/*.edf', 'out_dir': '/mnt/d/datasets/processed/mros/', 'channels': ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1'], 'rename_channels': None, 'resample': 128, 'use_dir_names': False, 'trim_leading_seconds_dict': None, 'overwrite': True, 'continue_': False, 'log_file': 'extraction_log'}
+
+2025/03/18 11:00:10 | INFO | Found 85 files matching glob statement
+
+2025/03/18 11:00:10 | INFO | Extracting channels ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+Saving .h5 files to '/mnt/d/datasets/processed/mros'
+Re-sampling: 128
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
+
+2025/03/18 11:00:10 | INFO | 
+------------------
+[*] 1/85 Processing mros-visit1-aa0001
+
+2025/03/18 11:00:10 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:00:15 | INFO | [*] Original PSG shape: (8064000, 4)
+
+2025/03/18 11:00:15 | INFO | [*] PSG shape after re-sampling: (4032000, 4)
+
+2025/03/18 11:00:15 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:00:17 | INFO | 
+------------------
+[*] 2/85 Processing mros-visit1-aa0003
+
+2025/03/18 11:00:17 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:00:20 | INFO | [*] Original PSG shape: (7011840, 4)
+
+2025/03/18 11:00:21 | INFO | [*] PSG shape after re-sampling: (3505920, 4)
+
+2025/03/18 11:00:21 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:00:23 | INFO | 
+------------------
+[*] 3/85 Processing mros-visit1-aa0005
+
+2025/03/18 11:00:23 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:00:29 | INFO | [*] Original PSG shape: (11128320, 4)
+
+2025/03/18 11:00:29 | INFO | [*] PSG shape after re-sampling: (5564160, 4)
+
+2025/03/18 11:00:29 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:00:35 | INFO | 
+------------------
+[*] 4/85 Processing mros-visit1-aa0006
+
+2025/03/18 11:00:35 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:00:41 | INFO | [*] Original PSG shape: (9971456, 4)
+
+2025/03/18 11:00:42 | INFO | [*] PSG shape after re-sampling: (4985728, 4)
+
+2025/03/18 11:00:42 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:00:45 | INFO | 
+------------------
+[*] 5/85 Processing mros-visit1-aa0009
+
+2025/03/18 11:00:45 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:00:52 | INFO | [*] Original PSG shape: (12080640, 4)
+
+2025/03/18 11:00:52 | INFO | [*] PSG shape after re-sampling: (6040320, 4)
+
+2025/03/18 11:00:52 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:00:56 | INFO | 
+------------------
+[*] 6/85 Processing mros-visit1-aa0012
+
+2025/03/18 11:00:56 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:00 | INFO | [*] Original PSG shape: (7226880, 4)
+
+2025/03/18 11:01:00 | INFO | [*] PSG shape after re-sampling: (3613440, 4)
+
+2025/03/18 11:01:00 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:02 | INFO | 
+------------------
+[*] 7/85 Processing mros-visit1-aa0013
+
+2025/03/18 11:01:02 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:09 | INFO | [*] Original PSG shape: (7426560, 4)
+
+2025/03/18 11:01:10 | INFO | [*] PSG shape after re-sampling: (3713280, 4)
+
+2025/03/18 11:01:10 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:11 | INFO | 
+------------------
+[*] 8/85 Processing mros-visit1-aa0014
+
+2025/03/18 11:01:12 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:17 | INFO | [*] Original PSG shape: (9523200, 4)
+
+2025/03/18 11:01:17 | INFO | [*] PSG shape after re-sampling: (4761600, 4)
+
+2025/03/18 11:01:17 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:20 | INFO | 
+------------------
+[*] 9/85 Processing mros-visit1-aa0015
+
+2025/03/18 11:01:20 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:25 | INFO | [*] Original PSG shape: (11504640, 4)
+
+2025/03/18 11:01:26 | INFO | [*] PSG shape after re-sampling: (5752320, 4)
+
+2025/03/18 11:01:26 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:29 | INFO | 
+------------------
+[*] 10/85 Processing mros-visit1-aa0018
+
+2025/03/18 11:01:29 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:34 | INFO | [*] Original PSG shape: (10229760, 4)
+
+2025/03/18 11:01:34 | INFO | [*] PSG shape after re-sampling: (5114880, 4)
+
+2025/03/18 11:01:34 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:37 | INFO | 
+------------------
+[*] 11/85 Processing mros-visit1-aa0019
+
+2025/03/18 11:01:37 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:45 | INFO | [*] Original PSG shape: (10606080, 4)
+
+2025/03/18 11:01:45 | INFO | [*] PSG shape after re-sampling: (5303040, 4)
+
+2025/03/18 11:01:45 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:48 | INFO | 
+------------------
+[*] 12/85 Processing mros-visit1-aa0021
+
+2025/03/18 11:01:48 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:01:53 | INFO | [*] Original PSG shape: (10106880, 4)
+
+2025/03/18 11:01:53 | INFO | [*] PSG shape after re-sampling: (5053440, 4)
+
+2025/03/18 11:01:53 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:01:56 | INFO | 
+------------------
+[*] 13/85 Processing mros-visit1-aa0024
+
+2025/03/18 11:01:56 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:01 | INFO | [*] Original PSG shape: (10867200, 4)
+
+2025/03/18 11:02:02 | INFO | [*] PSG shape after re-sampling: (5433600, 4)
+
+2025/03/18 11:02:02 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:04 | INFO | 
+------------------
+[*] 14/85 Processing mros-visit1-aa0025
+
+2025/03/18 11:02:04 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:06 | INFO | [*] Original PSG shape: (4300800, 4)
+
+2025/03/18 11:02:07 | INFO | [*] PSG shape after re-sampling: (2150400, 4)
+
+2025/03/18 11:02:07 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:07 | INFO | 
+------------------
+[*] 15/85 Processing mros-visit1-aa0026
+
+2025/03/18 11:02:08 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:13 | INFO | [*] Original PSG shape: (9561600, 4)
+
+2025/03/18 11:02:13 | INFO | [*] PSG shape after re-sampling: (4780800, 4)
+
+2025/03/18 11:02:13 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:18 | INFO | 
+------------------
+[*] 16/85 Processing mros-visit1-aa0027
+
+2025/03/18 11:02:18 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:22 | INFO | [*] Original PSG shape: (7910400, 4)
+
+2025/03/18 11:02:22 | INFO | [*] PSG shape after re-sampling: (3955200, 4)
+
+2025/03/18 11:02:22 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:24 | INFO | 
+------------------
+[*] 17/85 Processing mros-visit1-aa0028
+
+2025/03/18 11:02:24 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:29 | INFO | [*] Original PSG shape: (10129920, 4)
+
+2025/03/18 11:02:29 | INFO | [*] PSG shape after re-sampling: (5064960, 4)
+
+2025/03/18 11:02:29 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:32 | INFO | 
+------------------
+[*] 18/85 Processing mros-visit1-aa0029
+
+2025/03/18 11:02:32 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:38 | INFO | [*] Original PSG shape: (11527680, 4)
+
+2025/03/18 11:02:38 | INFO | [*] PSG shape after re-sampling: (5763840, 4)
+
+2025/03/18 11:02:38 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:41 | INFO | 
+------------------
+[*] 19/85 Processing mros-visit1-aa0030
+
+2025/03/18 11:02:41 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:47 | INFO | [*] Original PSG shape: (10583040, 4)
+
+2025/03/18 11:02:47 | INFO | [*] PSG shape after re-sampling: (5291520, 4)
+
+2025/03/18 11:02:47 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:50 | INFO | 
+------------------
+[*] 20/85 Processing mros-visit1-aa0031
+
+2025/03/18 11:02:50 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:02:56 | INFO | [*] Original PSG shape: (8102400, 4)
+
+2025/03/18 11:02:57 | INFO | [*] PSG shape after re-sampling: (4051200, 4)
+
+2025/03/18 11:02:57 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:02:59 | INFO | 
+------------------
+[*] 21/85 Processing mros-visit1-aa0032
+
+2025/03/18 11:02:59 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:02 | INFO | [*] Original PSG shape: (6858240, 4)
+
+2025/03/18 11:03:02 | INFO | [*] PSG shape after re-sampling: (3429120, 4)
+
+2025/03/18 11:03:02 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:04 | INFO | 
+------------------
+[*] 22/85 Processing mros-visit1-aa0033
+
+2025/03/18 11:03:04 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:09 | INFO | [*] Original PSG shape: (11097600, 4)
+
+2025/03/18 11:03:10 | INFO | [*] PSG shape after re-sampling: (5548800, 4)
+
+2025/03/18 11:03:10 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:13 | INFO | 
+------------------
+[*] 23/85 Processing mros-visit1-aa0034
+
+2025/03/18 11:03:13 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:18 | INFO | [*] Original PSG shape: (9592320, 4)
+
+2025/03/18 11:03:18 | INFO | [*] PSG shape after re-sampling: (4796160, 4)
+
+2025/03/18 11:03:18 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:20 | INFO | 
+------------------
+[*] 24/85 Processing mros-visit1-aa0035
+
+2025/03/18 11:03:21 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:29 | INFO | [*] Original PSG shape: (11059200, 4)
+
+2025/03/18 11:03:29 | INFO | [*] PSG shape after re-sampling: (5529600, 4)
+
+2025/03/18 11:03:29 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:32 | INFO | 
+------------------
+[*] 25/85 Processing mros-visit1-aa0042
+
+2025/03/18 11:03:32 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:38 | INFO | [*] Original PSG shape: (12641280, 4)
+
+2025/03/18 11:03:39 | INFO | [*] PSG shape after re-sampling: (6320640, 4)
+
+2025/03/18 11:03:39 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:42 | INFO | 
+------------------
+[*] 26/85 Processing mros-visit1-aa0045
+
+2025/03/18 11:03:42 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:47 | INFO | [*] Original PSG shape: (9960960, 4)
+
+2025/03/18 11:03:47 | INFO | [*] PSG shape after re-sampling: (4980480, 4)
+
+2025/03/18 11:03:47 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:50 | INFO | 
+------------------
+[*] 27/85 Processing mros-visit1-aa0047
+
+2025/03/18 11:03:50 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:03:55 | INFO | [*] Original PSG shape: (11182080, 4)
+
+2025/03/18 11:03:56 | INFO | [*] PSG shape after re-sampling: (5591040, 4)
+
+2025/03/18 11:03:56 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:03:58 | INFO | 
+------------------
+[*] 28/85 Processing mros-visit1-aa0048
+
+2025/03/18 11:03:58 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:06 | INFO | [*] Original PSG shape: (9515520, 4)
+
+2025/03/18 11:04:06 | INFO | [*] PSG shape after re-sampling: (4757760, 4)
+
+2025/03/18 11:04:06 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:04:09 | INFO | 
+------------------
+[*] 29/85 Processing mros-visit1-aa0051
+
+2025/03/18 11:04:09 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:15 | INFO | [*] Original PSG shape: (11934720, 4)
+
+2025/03/18 11:04:15 | INFO | [*] PSG shape after re-sampling: (5967360, 4)
+
+2025/03/18 11:04:15 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:04:18 | INFO | 
+------------------
+[*] 30/85 Processing mros-visit1-aa0052
+
+2025/03/18 11:04:18 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:26 | INFO | [*] Original PSG shape: (13731840, 4)
+
+2025/03/18 11:04:26 | INFO | [*] PSG shape after re-sampling: (6865920, 4)
+
+2025/03/18 11:04:26 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:04:30 | INFO | 
+------------------
+[*] 31/85 Processing mros-visit1-aa0053
+
+2025/03/18 11:04:30 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:36 | INFO | [*] Original PSG shape: (11128320, 4)
+
+2025/03/18 11:04:39 | INFO | [*] PSG shape after re-sampling: (5564160, 4)
+
+2025/03/18 11:04:39 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:04:42 | INFO | 
+------------------
+[*] 32/85 Processing mros-visit1-aa0062
+
+2025/03/18 11:04:42 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:48 | INFO | [*] Original PSG shape: (10590720, 4)
+
+2025/03/18 11:04:49 | INFO | [*] PSG shape after re-sampling: (5295360, 4)
+
+2025/03/18 11:04:49 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:04:52 | INFO | 
+------------------
+[*] 33/85 Processing mros-visit1-aa0063
+
+2025/03/18 11:04:52 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:04:58 | INFO | [*] Original PSG shape: (11612160, 4)
+
+2025/03/18 11:04:58 | INFO | [*] PSG shape after re-sampling: (5806080, 4)
+
+2025/03/18 11:04:58 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:02 | INFO | 
+------------------
+[*] 34/85 Processing mros-visit1-aa0064
+
+2025/03/18 11:05:02 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:08 | INFO | [*] Original PSG shape: (11573760, 4)
+
+2025/03/18 11:05:09 | INFO | [*] PSG shape after re-sampling: (5786880, 4)
+
+2025/03/18 11:05:09 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:15 | INFO | 
+------------------
+[*] 35/85 Processing mros-visit1-aa0065
+
+2025/03/18 11:05:15 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:21 | INFO | [*] Original PSG shape: (11520000, 4)
+
+2025/03/18 11:05:21 | INFO | [*] PSG shape after re-sampling: (5760000, 4)
+
+2025/03/18 11:05:21 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:24 | INFO | 
+------------------
+[*] 36/85 Processing mros-visit1-aa0077
+
+2025/03/18 11:05:24 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:28 | INFO | [*] Original PSG shape: (8663040, 4)
+
+2025/03/18 11:05:29 | INFO | [*] PSG shape after re-sampling: (4331520, 4)
+
+2025/03/18 11:05:29 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:31 | INFO | 
+------------------
+[*] 37/85 Processing mros-visit1-aa0079
+
+2025/03/18 11:05:31 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:34 | INFO | [*] Original PSG shape: (8202240, 4)
+
+2025/03/18 11:05:35 | INFO | [*] PSG shape after re-sampling: (4101120, 4)
+
+2025/03/18 11:05:35 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:36 | INFO | 
+------------------
+[*] 38/85 Processing mros-visit1-aa0084
+
+2025/03/18 11:05:37 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:41 | INFO | [*] Original PSG shape: (10613760, 4)
+
+2025/03/18 11:05:42 | INFO | [*] PSG shape after re-sampling: (5306880, 4)
+
+2025/03/18 11:05:42 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:44 | INFO | 
+------------------
+[*] 39/85 Processing mros-visit1-aa0085
+
+2025/03/18 11:05:44 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:05:52 | INFO | [*] Original PSG shape: (9500160, 4)
+
+2025/03/18 11:05:52 | INFO | [*] PSG shape after re-sampling: (4750080, 4)
+
+2025/03/18 11:05:52 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:05:55 | INFO | 
+------------------
+[*] 40/85 Processing mros-visit1-aa0086
+
+2025/03/18 11:05:55 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:00 | INFO | [*] Original PSG shape: (10621440, 4)
+
+2025/03/18 11:06:00 | INFO | [*] PSG shape after re-sampling: (5310720, 4)
+
+2025/03/18 11:06:00 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:03 | INFO | 
+------------------
+[*] 41/85 Processing mros-visit1-aa0087
+
+2025/03/18 11:06:03 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:06 | INFO | [*] Original PSG shape: (6612480, 4)
+
+2025/03/18 11:06:06 | INFO | [*] PSG shape after re-sampling: (3306240, 4)
+
+2025/03/18 11:06:06 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:08 | INFO | 
+------------------
+[*] 42/85 Processing mros-visit1-aa0088
+
+2025/03/18 11:06:08 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:12 | INFO | [*] Original PSG shape: (7848960, 4)
+
+2025/03/18 11:06:12 | INFO | [*] PSG shape after re-sampling: (3924480, 4)
+
+2025/03/18 11:06:12 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:14 | INFO | 
+------------------
+[*] 43/85 Processing mros-visit1-aa0089
+
+2025/03/18 11:06:14 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:20 | INFO | [*] Original PSG shape: (12295680, 4)
+
+2025/03/18 11:06:21 | INFO | [*] PSG shape after re-sampling: (6147840, 4)
+
+2025/03/18 11:06:21 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:27 | INFO | 
+------------------
+[*] 44/85 Processing mros-visit1-aa0092
+
+2025/03/18 11:06:27 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:31 | INFO | [*] Original PSG shape: (8647680, 4)
+
+2025/03/18 11:06:31 | INFO | [*] PSG shape after re-sampling: (4323840, 4)
+
+2025/03/18 11:06:31 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:33 | INFO | 
+------------------
+[*] 45/85 Processing mros-visit1-aa0094
+
+2025/03/18 11:06:34 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:38 | INFO | [*] Original PSG shape: (9968640, 4)
+
+2025/03/18 11:06:38 | INFO | [*] PSG shape after re-sampling: (4984320, 4)
+
+2025/03/18 11:06:38 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:41 | INFO | 
+------------------
+[*] 46/85 Processing mros-visit1-aa0100
+
+2025/03/18 11:06:41 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:45 | INFO | [*] Original PSG shape: (9008640, 4)
+
+2025/03/18 11:06:46 | INFO | [*] PSG shape after re-sampling: (4504320, 4)
+
+2025/03/18 11:06:46 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:48 | INFO | 
+------------------
+[*] 47/85 Processing mros-visit1-aa0101
+
+2025/03/18 11:06:48 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:06:52 | INFO | [*] Original PSG shape: (9477120, 4)
+
+2025/03/18 11:06:53 | INFO | [*] PSG shape after re-sampling: (4738560, 4)
+
+2025/03/18 11:06:53 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:06:55 | INFO | 
+------------------
+[*] 48/85 Processing mros-visit1-aa0105
+
+2025/03/18 11:06:55 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:03 | INFO | [*] Original PSG shape: (10452480, 4)
+
+2025/03/18 11:07:03 | INFO | [*] PSG shape after re-sampling: (5226240, 4)
+
+2025/03/18 11:07:03 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:06 | INFO | 
+------------------
+[*] 49/85 Processing mros-visit1-aa0107
+
+2025/03/18 11:07:06 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:12 | INFO | [*] Original PSG shape: (11796480, 4)
+
+2025/03/18 11:07:12 | INFO | [*] PSG shape after re-sampling: (5898240, 4)
+
+2025/03/18 11:07:12 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:15 | INFO | 
+------------------
+[*] 50/85 Processing mros-visit1-aa0111
+
+2025/03/18 11:07:15 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:20 | INFO | [*] Original PSG shape: (9937920, 4)
+
+2025/03/18 11:07:20 | INFO | [*] PSG shape after re-sampling: (4968960, 4)
+
+2025/03/18 11:07:20 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:23 | INFO | 
+------------------
+[*] 51/85 Processing mros-visit1-aa0114
+
+2025/03/18 11:07:23 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:28 | INFO | [*] Original PSG shape: (11220480, 4)
+
+2025/03/18 11:07:29 | INFO | [*] PSG shape after re-sampling: (5610240, 4)
+
+2025/03/18 11:07:29 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:31 | INFO | 
+------------------
+[*] 52/85 Processing mros-visit1-aa0116
+
+2025/03/18 11:07:31 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:39 | INFO | [*] Original PSG shape: (9561600, 4)
+
+2025/03/18 11:07:39 | INFO | [*] PSG shape after re-sampling: (4780800, 4)
+
+2025/03/18 11:07:39 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:42 | INFO | 
+------------------
+[*] 53/85 Processing mros-visit1-aa0120
+
+2025/03/18 11:07:42 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:48 | INFO | [*] Original PSG shape: (10583040, 4)
+
+2025/03/18 11:07:48 | INFO | [*] PSG shape after re-sampling: (5291520, 4)
+
+2025/03/18 11:07:48 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:07:51 | INFO | 
+------------------
+[*] 54/85 Processing mros-visit1-aa0121
+
+2025/03/18 11:07:51 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:07:56 | INFO | [*] Original PSG shape: (11842560, 4)
+
+2025/03/18 11:07:57 | INFO | [*] PSG shape after re-sampling: (5921280, 4)
+
+2025/03/18 11:07:57 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:08:00 | INFO | 
+------------------
+[*] 55/85 Processing mros-visit1-aa0125
+
+2025/03/18 11:08:00 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:08:05 | INFO | [*] Original PSG shape: (9930240, 4)
+
+2025/03/18 11:08:06 | INFO | [*] PSG shape after re-sampling: (4965120, 4)
+
+2025/03/18 11:08:06 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:08:08 | INFO | 
+------------------
+[*] 56/85 Processing mros-visit1-aa0126
+
+2025/03/18 11:08:08 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:08:13 | INFO | [*] Original PSG shape: (9646080, 4)
+
+2025/03/18 11:08:13 | INFO | [*] PSG shape after re-sampling: (4823040, 4)
+
+2025/03/18 11:08:13 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:08:16 | INFO | 
+------------------
+[*] 57/85 Processing mros-visit1-aa0129
+
+2025/03/18 11:08:16 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:08:57 | INFO | [*] Original PSG shape: (8401920, 4)
+
+2025/03/18 11:08:58 | INFO | [*] PSG shape after re-sampling: (4200960, 4)
+
+2025/03/18 11:08:58 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:09:22 | INFO | 
+------------------
+[*] 58/85 Processing mros-visit1-aa0132
+
+2025/03/18 11:09:23 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:09:30 | INFO | [*] Original PSG shape: (7119360, 4)
+
+2025/03/18 11:09:31 | INFO | [*] PSG shape after re-sampling: (3559680, 4)
+
+2025/03/18 11:09:31 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:09:32 | INFO | 
+------------------
+[*] 59/85 Processing mros-visit1-aa0136
+
+2025/03/18 11:09:33 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:09:42 | INFO | [*] Original PSG shape: (11927040, 4)
+
+2025/03/18 11:09:43 | INFO | [*] PSG shape after re-sampling: (5963520, 4)
+
+2025/03/18 11:09:43 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:09:46 | INFO | 
+------------------
+[*] 60/85 Processing mros-visit1-aa0137
+
+2025/03/18 11:09:46 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:09:51 | INFO | [*] Original PSG shape: (9822720, 4)
+
+2025/03/18 11:09:52 | INFO | [*] PSG shape after re-sampling: (4911360, 4)
+
+2025/03/18 11:09:52 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:09:55 | INFO | 
+------------------
+[*] 61/85 Processing mros-visit1-aa0138
+
+2025/03/18 11:09:56 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:03 | INFO | [*] Original PSG shape: (10867200, 4)
+
+2025/03/18 11:10:04 | INFO | [*] PSG shape after re-sampling: (5433600, 4)
+
+2025/03/18 11:10:04 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:07 | INFO | 
+------------------
+[*] 62/85 Processing mros-visit1-aa0141
+
+2025/03/18 11:10:07 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:16 | INFO | [*] Original PSG shape: (11512320, 4)
+
+2025/03/18 11:10:17 | INFO | [*] PSG shape after re-sampling: (5756160, 4)
+
+2025/03/18 11:10:17 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:19 | INFO | 
+------------------
+[*] 63/85 Processing mros-visit1-aa0142
+
+2025/03/18 11:10:20 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:27 | INFO | [*] Original PSG shape: (8547840, 4)
+
+2025/03/18 11:10:28 | INFO | [*] PSG shape after re-sampling: (4273920, 4)
+
+2025/03/18 11:10:28 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:31 | INFO | 
+------------------
+[*] 64/85 Processing mros-visit1-aa0145
+
+2025/03/18 11:10:31 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:36 | INFO | [*] Original PSG shape: (9707520, 4)
+
+2025/03/18 11:10:36 | INFO | [*] PSG shape after re-sampling: (4853760, 4)
+
+2025/03/18 11:10:36 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:39 | INFO | 
+------------------
+[*] 65/85 Processing mros-visit1-aa0146
+
+2025/03/18 11:10:39 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:43 | INFO | [*] Original PSG shape: (7380480, 4)
+
+2025/03/18 11:10:43 | INFO | [*] PSG shape after re-sampling: (3690240, 4)
+
+2025/03/18 11:10:43 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:48 | INFO | 
+------------------
+[*] 66/85 Processing mros-visit1-aa0147
+
+2025/03/18 11:10:48 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:10:53 | INFO | [*] Original PSG shape: (8340480, 4)
+
+2025/03/18 11:10:53 | INFO | [*] PSG shape after re-sampling: (4170240, 4)
+
+2025/03/18 11:10:53 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:10:55 | INFO | 
+------------------
+[*] 67/85 Processing mros-visit1-aa0149
+
+2025/03/18 11:10:56 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:03 | INFO | [*] Original PSG shape: (11589120, 4)
+
+2025/03/18 11:11:03 | INFO | [*] PSG shape after re-sampling: (5794560, 4)
+
+2025/03/18 11:11:03 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:11:07 | INFO | 
+------------------
+[*] 68/85 Processing mros-visit1-aa0150
+
+2025/03/18 11:11:07 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:12 | INFO | [*] Original PSG shape: (10091520, 4)
+
+2025/03/18 11:11:13 | INFO | [*] PSG shape after re-sampling: (5045760, 4)
+
+2025/03/18 11:11:13 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:11:16 | INFO | 
+------------------
+[*] 69/85 Processing mros-visit1-aa0151
+
+2025/03/18 11:11:16 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:25 | INFO | [*] Original PSG shape: (8609280, 4)
+
+2025/03/18 11:11:25 | INFO | [*] PSG shape after re-sampling: (4304640, 4)
+
+2025/03/18 11:11:25 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:11:28 | INFO | 
+------------------
+[*] 70/85 Processing mros-visit1-aa0152
+
+2025/03/18 11:11:28 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:34 | INFO | [*] Original PSG shape: (8064000, 4)
+
+2025/03/18 11:11:35 | INFO | [*] PSG shape after re-sampling: (4032000, 4)
+
+2025/03/18 11:11:35 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:11:38 | INFO | 
+------------------
+[*] 71/85 Processing mros-visit1-aa0153
+
+2025/03/18 11:11:38 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:43 | INFO | [*] Original PSG shape: (9569280, 4)
+
+2025/03/18 11:11:44 | INFO | [*] PSG shape after re-sampling: (4784640, 4)
+
+2025/03/18 11:11:44 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:11:47 | INFO | 
+------------------
+[*] 72/85 Processing mros-visit1-aa0157
+
+2025/03/18 11:11:47 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:11:59 | INFO | [*] Original PSG shape: (12019200, 4)
+
+2025/03/18 11:11:59 | INFO | [*] PSG shape after re-sampling: (6009600, 4)
+
+2025/03/18 11:11:59 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:03 | INFO | 
+------------------
+[*] 73/85 Processing mros-visit1-aa0159
+
+2025/03/18 11:12:03 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:12:07 | INFO | [*] Original PSG shape: (7027200, 4)
+
+2025/03/18 11:12:07 | INFO | [*] PSG shape after re-sampling: (3513600, 4)
+
+2025/03/18 11:12:07 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:09 | INFO | 
+------------------
+[*] 74/85 Processing mros-visit1-aa0160
+
+2025/03/18 11:12:09 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:12:15 | INFO | [*] Original PSG shape: (9600000, 4)
+
+2025/03/18 11:12:15 | INFO | [*] PSG shape after re-sampling: (4800000, 4)
+
+2025/03/18 11:12:15 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:18 | INFO | 
+------------------
+[*] 75/85 Processing mros-visit1-aa0162
+
+2025/03/18 11:12:18 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:12:27 | INFO | [*] Original PSG shape: (8501760, 4)
+
+2025/03/18 11:12:27 | INFO | [*] PSG shape after re-sampling: (4250880, 4)
+
+2025/03/18 11:12:27 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:30 | INFO | 
+------------------
+[*] 76/85 Processing mros-visit1-aa0164
+
+2025/03/18 11:12:33 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:12:41 | INFO | [*] Original PSG shape: (11120640, 4)
+
+2025/03/18 11:12:41 | INFO | [*] PSG shape after re-sampling: (5560320, 4)
+
+2025/03/18 11:12:41 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:45 | INFO | 
+------------------
+[*] 77/85 Processing mros-visit1-aa0167
+
+2025/03/18 11:12:45 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:12:55 | INFO | [*] Original PSG shape: (9277440, 4)
+
+2025/03/18 11:12:55 | INFO | [*] PSG shape after re-sampling: (4638720, 4)
+
+2025/03/18 11:12:55 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:12:58 | INFO | 
+------------------
+[*] 78/85 Processing mros-visit1-aa0168
+
+2025/03/18 11:12:58 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:08 | INFO | [*] Original PSG shape: (7526400, 4)
+
+2025/03/18 11:13:09 | INFO | [*] PSG shape after re-sampling: (3763200, 4)
+
+2025/03/18 11:13:09 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:13:11 | INFO | 
+------------------
+[*] 79/85 Processing mros-visit1-aa0169
+
+2025/03/18 11:13:11 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:18 | INFO | [*] Original PSG shape: (8217600, 4)
+
+2025/03/18 11:13:19 | INFO | [*] PSG shape after re-sampling: (4108800, 4)
+
+2025/03/18 11:13:19 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:13:21 | INFO | 
+------------------
+[*] 80/85 Processing mros-visit1-aa0170
+
+2025/03/18 11:13:21 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:28 | INFO | [*] Original PSG shape: (10060800, 4)
+
+2025/03/18 11:13:28 | INFO | [*] PSG shape after re-sampling: (5030400, 4)
+
+2025/03/18 11:13:28 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:13:31 | INFO | 
+------------------
+[*] 81/85 Processing mros-visit1-aa0172
+
+2025/03/18 11:13:31 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:38 | INFO | [*] Original PSG shape: (10099200, 4)
+
+2025/03/18 11:13:38 | INFO | [*] PSG shape after re-sampling: (5049600, 4)
+
+2025/03/18 11:13:38 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:13:44 | INFO | 
+------------------
+[*] 82/85 Processing mros-visit1-aa0174
+
+2025/03/18 11:13:44 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:50 | INFO | [*] Original PSG shape: (8524800, 4)
+
+2025/03/18 11:13:50 | INFO | [*] PSG shape after re-sampling: (4262400, 4)
+
+2025/03/18 11:13:50 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:13:53 | INFO | 
+------------------
+[*] 83/85 Processing mros-visit1-aa0176
+
+2025/03/18 11:13:53 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:13:59 | INFO | [*] Original PSG shape: (8962560, 4)
+
+2025/03/18 11:13:59 | INFO | [*] PSG shape after re-sampling: (4481280, 4)
+
+2025/03/18 11:13:59 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:14:02 | INFO | 
+------------------
+[*] 84/85 Processing mros-visit1-aa0177
+
+2025/03/18 11:14:02 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:14:07 | INFO | [*] Original PSG shape: (8140800, 4)
+
+2025/03/18 11:14:08 | INFO | [*] PSG shape after re-sampling: (4070400, 4)
+
+2025/03/18 11:14:08 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+
+2025/03/18 11:14:10 | INFO | 
+------------------
+[*] 85/85 Processing mros-visit1-aa0179
+
+2025/03/18 11:14:10 | INFO | 
+[*] Channels in file: POSITION-None, LEG_L-None, LEG_R-None, C3-None, C4-None, M1-None, M2-None, E2-None, E1-None, ECG_L-None, ECG_R-None, L_CHIN-None, R_CHIN-None, AIRFLOW-None, SUM-None, THORACIC-None, ABDOMINAL-None, STAT-None, HR-None, SAO2-None, CANNULA_FLOW-None, DHR-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C3-None, M2-None, M1-None, E2-None, E1-None, C4-None
+
+2025/03/18 11:14:20 | INFO | [*] Original PSG shape: (9884160, 4)
+
+2025/03/18 11:14:21 | INFO | [*] PSG shape after re-sampling: (4942080, 4)
+
+2025/03/18 11:14:21 | INFO | [*] Extracted 4 channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']

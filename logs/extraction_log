@@ -1,0 +1,2 @@
+
+2025/03/18 10:55:58 | INFO | Args dump: {'file_regex': None, 'out_dir': None, 'channels': None, 'rename_channels': None, 'resample': None, 'use_dir_names': False, 'trim_leading_seconds_dict': None, 'overwrite': True, 'continue_': False, 'log_file': 'extraction_log'}

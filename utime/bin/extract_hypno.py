@@ -4,8 +4,8 @@ import numpy as np
 from argparse import ArgumentParser
 from glob import glob
 from pathlib import Path
-from psg_utils.io.hypnogram import extract_ids_from_hyp_file
-from psg_utils.hypnogram.utils import fill_hyp_gaps
+from psg_utils_bachalor.io.hypnogram import extract_ids_from_hyp_file
+from psg_utils_bachalor.hypnogram.utils import fill_hyp_gaps
 from utime.utils.scriptutils import add_logging_file_handler
 
 logger = logging.getLogger(__name__)
@@ -42,6 +42,7 @@ def get_argparser():
 
 def to_ids(start, durs, stage, out):
     with open(out, "w") as out_f:
+        print("to_ids - Stages : ", stage)
         for i, d, s in zip(start, durs, stage):
             out_f.write("{},{},{}\n".format(int(i), int(d), s))
 

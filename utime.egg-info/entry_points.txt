@@ -1,0 +1,2 @@
+[console_scripts]
+ut = utime.bin.ut:entry_func
