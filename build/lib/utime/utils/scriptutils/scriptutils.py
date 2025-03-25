@@ -154,6 +154,8 @@ def get_dataset_splits_from_hparams(hparams, splits_to_load, id=""):
         A list of initialized and prepared datasets according to hparams.
     """
     ann_dict = hparams.get("sleep_stage_annotations")
+    print("\nIn get_dataset_splits_from_hparams")
+    print(f"ann_dict: {ann_dict}")
     datasets = []
     for data_key in ensure_list_or_tuple(splits_to_load):
         if data_key not in hparams:
@@ -183,6 +185,8 @@ def get_dataset_splits_from_hparams_file(hparams_path, splits_to_load, id=""):
     details.
     """
     from utime.hyperparameters import YAMLHParams
+    print("\n Where is hyperparameters file?")
+    print(hparams_path)
     hparams = YAMLHParams(hparams_path, no_version_control=True)
     return get_dataset_splits_from_hparams(hparams, splits_to_load, id)
 

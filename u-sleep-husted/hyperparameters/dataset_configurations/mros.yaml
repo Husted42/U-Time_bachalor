@@ -24,12 +24,7 @@ set_sample_rate: 128
 channel_sampling_groups: [[C3-M2, C4-M1], [E1-M2, E2-M1]]
 
 sleep_stage_annotations:
-  W: 0
-  N1: 1
-  N2: 2
-  N3: 3
-  REM: 4
-  UNKNOWN: 5
+  True: 1
 
 strip_func:
   strip_func: strip_to_match
