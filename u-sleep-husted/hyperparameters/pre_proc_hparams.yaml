@@ -40,7 +40,7 @@ datasets:
   # chat: dataset_configurations/chat.yaml
   # cfs: dataset_configurations/cfs.yaml
   # sof: dataset_configurations/sof.yaml
-  mros: /mnt/c/Users/Husted42/Documents/GitHub/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/mros.yaml
+  mros: /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/mros.yaml
   # ccshs: dataset_configurations/ccshs.yaml
   # mesa: dataset_configurations/mesa.yaml
   # hpap: dataset_configurations/hpap.yaml

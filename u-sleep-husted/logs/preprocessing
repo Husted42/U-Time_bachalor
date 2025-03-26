@@ -1,34 +1,34 @@
 
-2025/03/25 14:54:18 | INFO | Args dump: {'out_path': '/mnt/d/datasets/pre_processed/processed_data.h5', 'dataset_splits': ['train_data', 'val_data'], 'overwrite': True, 'num_threads': 1, 'log_file': 'preprocessing'}
+2025/03/26 11:50:34 | INFO | Args dump: {'out_path': '/mnt/d/datasets/pre_processed/processed_data.h5', 'dataset_splits': ['train_data', 'val_data'], 'overwrite': True, 'num_threads': 1, 'log_file': 'preprocessing'}
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] SleepStudyDataset(identifier: mros/TRAIN, N pairs: 63, N loaded: 0)
+2025/03/26 11:50:34 | INFO | [Dataset: mros/TRAIN] SleepStudyDataset(identifier: mros/TRAIN, N pairs: 63, N loaded: 0)
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] SleepStudyDataset(identifier: mros/VAL, N pairs: 9, N loaded: 0)
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] SleepStudyDataset(identifier: mros/VAL, N pairs: 9, N loaded: 0)
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting sample rate of 128 Hz
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting sample rate of 128 Hz
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] Setting sample rate of 128 Hz
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] Setting sample rate of 128 Hz
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting 'strip_to_match' strip function with parameters {}...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting 'strip_to_match' strip function with parameters {}...
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] Setting 'strip_to_match' strip function with parameters {}...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] Setting 'strip_to_match' strip function with parameters {}...
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting 'RobustScaler' scaler...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting 'RobustScaler' scaler...
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/VAL] Setting 'RobustScaler' scaler...
+2025/03/26 11:50:35 | INFO | [Dataset: mros/VAL] Setting 'RobustScaler' scaler...
 
-2025/03/25 14:54:19 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['E2-M1', 'C3-M2', 'C4-M1', 'E1-M2'].
+2025/03/26 11:50:35 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1'].
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: None
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: None
 
-2025/03/25 14:54:19 | INFO | [Dataset: mros/TRAIN] Setting select channels: ['E2-M1', 'C3-M2', 'C4-M1', 'E1-M2']
+2025/03/26 11:50:35 | INFO | [Dataset: mros/TRAIN] Setting select channels: ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
 
-2025/03/25 14:54:19 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: mros/TRAIN, N pairs: 63, N loaded: 0)
+2025/03/26 11:50:35 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: mros/TRAIN, N pairs: 63, N loaded: 0)

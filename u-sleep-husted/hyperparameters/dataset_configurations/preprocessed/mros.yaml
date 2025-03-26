@@ -1,7 +1,7 @@
 channel_sampling_groups: [[C3-M2, C4-M1], [E1-M2, E2-M1]]
 train_data:
   data_dir: /mnt/d/datasets/pre_processed/processed_data.h5
-  period_length: 30.0
+  period_length: 1.0
   time_unit: SECOND
   identifier: TRAIN
 
