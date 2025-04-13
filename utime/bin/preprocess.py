@@ -125,7 +125,6 @@ def run(args):
     project_dir = os.path.abspath("./")
     assert_project_folder(project_dir)
     logger.info(f"Args dump: {vars(args)}")
-
     # Load hparams
     hparams = YAMLHParams(Defaults.get_hparams_path(project_dir), no_version_control=True)
 
@@ -194,12 +193,39 @@ def run(args):
 
                     logger.info(f"Preprocessing dataset: {split}")
                     n_pairs = len(split.pairs)
+                    '''
+                        The idea is to create a filter to filter out specific pairs
+                    '''
+                    for file_name in list_files_with_size('/mnt/d/datasets/processed/mros'):
+                        remove_pairs(split.pairs, file_name)
+                    
                     for i, _ in enumerate(pool.map(process_func,
                                                    split.pairs)):
                         print("  {}/{}".format(i+1, n_pairs),
                               end='\r', flush=True)
-                    print("")
 
+# Loop through folder in local path and print out the file names and their sizes
+def list_files_with_size(local_path):
+    list_of_empty_files = []
+    i = 0
+    for root, dirs, files in os.walk(local_path):
+        for file in files:
+            if file.endswith('.ids'):
+                file_path = os.path.join(root, file)
+                file_size = os.path.getsize(file_path)
+                if file_size == 0:
+                    i = i + 1
+                    file = file.split('-nsrr')[0]
+                    list_of_empty_files.append(file)
+    print('Number of empty files:', i)
+    return list_of_empty_files
+
+def remove_pairs(pairs, identifier):
+    for i in range(0, len(pairs)):
+        if pairs[i].identifier == identifier:
+            pairs.pop(i)
+            break
+    return pairs
 
 def entry_func(args=None):
     # Get the script to execute, parse only first input

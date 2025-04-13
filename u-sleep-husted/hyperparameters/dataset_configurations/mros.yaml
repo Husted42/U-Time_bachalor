@@ -1,9 +1,12 @@
 train_data:
-  data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train
+  # data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train
+  data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train/mros-visit1-aa0762/
   period_length: 1
   identifier: TRAIN
   psg_regex: .*[.]h5
   hyp_regex: .*[.]ids
+  # psg_regex: mros-visit1-aa0783.h5
+  # hyp_regex: mros-visit1-aa0783-nsrr.ids
 
 val_data:
   data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/val

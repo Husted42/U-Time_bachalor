@@ -328,6 +328,10 @@ def run(args):
     # Create sub-folders
     create_view_folders(out_dir, n_splits)
 
+    # print("##### ----- After paring ---- #####")
+    for i in range(10):
+        print(subject_dirs[i], "\n")
+
     if args.subject_matching_regex:
         logger.info(f"OBS: Pairing files based on regex {args.subject_matching_regex}")
         subject_dirs = pair_by_names(subject_dirs, args.subject_matching_regex)
@@ -341,6 +345,13 @@ def run(args):
 
     # Shuffle and split the files into CV parts
     random.shuffle(subject_dirs)
+    # print('Example element:', subject_dirs[0])
+    # print("##### ----- After paring ---- #####")
+    # for i in range(10):
+    #     print(subject_dirs[i], "\n")
+    # print('Type of elements:', type(subject_dirs[0]))
+    # print('Length:', len(subject_dirs))
+    # print(type(n_splits))
     splits = np.array_split(subject_dirs, n_splits)
 
     # Prepare dataframe to store counts

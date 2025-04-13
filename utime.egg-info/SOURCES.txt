@@ -19,6 +19,19 @@ setup.py
 .eggs/setuptools_git-1.2-py3.10.egg/setuptools_git/utils.py
 .eggs/setuptools_git-1.2-py3.10.egg/setuptools_git/__pycache__/__init__.cpython-310.pyc
 .eggs/setuptools_git-1.2-py3.10.egg/setuptools_git/__pycache__/utils.cpython-310.pyc
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/DESCRIPTION.rst
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/PKG-INFO
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/RECORD
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/WHEEL
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/entry_points.txt
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/metadata.json
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/top_level.txt
+.eggs/setuptools_git-1.2-py3.9.egg/EGG-INFO/zip-safe
+.eggs/setuptools_git-1.2-py3.9.egg/setuptools_git/__init__.py
+.eggs/setuptools_git-1.2-py3.9.egg/setuptools_git/tests.py
+.eggs/setuptools_git-1.2-py3.9.egg/setuptools_git/utils.py
+.eggs/setuptools_git-1.2-py3.9.egg/setuptools_git/__pycache__/__init__.cpython-39.pyc
+.eggs/setuptools_git-1.2-py3.9.egg/setuptools_git/__pycache__/utils.cpython-39.pyc
 logs/extraction_log
 tests/__init__.py
 u-sleep-husted/hyperparameters/hparams.yaml
@@ -72,6 +85,7 @@ utime/bin/fetch.py
 utime/bin/group.py
 utime/bin/init.py
 utime/bin/majority_vote.py
+utime/bin/old_train.py
 utime/bin/predict.py
 utime/bin/predict_one.py
 utime/bin/preprocess.py

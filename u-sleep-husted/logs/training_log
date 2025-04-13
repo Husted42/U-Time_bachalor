@@ -1,0 +1,274 @@
+
+2025/03/31 16:17:12 | INFO | Args dump: {'num_gpus': 1, 'force_gpus': '', 'continue_training': False, 'initialize_from': None, 'overwrite': True, 'log_file': 'training_log', 'datasets': None, 'just': None, 'no_val': False, 'max_val_studies_per_dataset': 20, 'max_train_samples_per_epoch': 10, 'n_epochs': None, 'channels': None, 'train_queue_type': 'eager', 'val_queue_type': 'lazy', 'max_loaded_per_dataset': 40, 'num_access_before_reload': 32, 'preprocessed': True, 'final_weights_file_name': 'model_weights.h5', 'train_on_val': False}
+
+2025/03/31 16:17:12 | INFO | SingleH5Dataset(identifier=processed_data, path=/mnt/d/datasets/pre_processed/processed_data.h5)
+
+2025/03/31 16:17:12 | INFO | [Dataset: mros/TRAIN] H5Dataset(identifier=mros/TRAIN, members=63, loaded=63)
+
+2025/03/31 16:17:12 | INFO | [Dataset: mros/VAL] H5Dataset(identifier=mros/VAL, members=9, loaded=9)
+
+2025/03/31 16:17:12 | INFO | [Dataset: mros/TRAIN] Setting access-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/03/31 16:17:12 | INFO | [Dataset: mros/VAL] Setting access-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/03/31 16:17:12 | INFO | Using data queue type: EagerQueue
+
+2025/03/31 16:17:12 | INFO | Using data queue type: EagerQueue
+
+2025/03/31 16:17:12 | INFO | Inferred DPE: 128, n_channels=2 for dataset queue '<psg_utils.dataset.queue.eager_queue.EagerQueue object at 0x7f14db6dee50>'
+
+2025/03/31 16:17:12 | INFO | Creating sequence class '<class 'utime.sequences.balanced_random_batch_sequence.BalancedRandomBatchSequence'>'
+
+2025/03/31 16:17:12 | INFO | Setting augmenter: RegionalErase(ordereddict([('min_region_fraction', 0.001), ('max_region_fraction', 0.33), ('log_sample', True), ('apply_prob', 0.1)]))
+
+2025/03/31 16:17:12 | INFO | Setting augmenter: ChannelDropout(ordereddict([('drop_fraction', 0.5), ('apply_prob', 0.1)]))
+
+2025/03/31 16:17:12 | INFO | 
+[*] BalancedRandomBatchSequence initialized (mros/TRAIN):
+    Data queue type: <class 'psg_utils.dataset.queue.eager_queue.EagerQueue'>
+    Batch shape:     [64, 35, 128, 2]
+    Sample prob.:    [0.5, 0.5]
+    N pairs:         63
+    Margin:          17
+    Augmenters:      [<RegionalErase>, <ChannelDropout>]
+    Aug enabled:     True
+    Batch scaling:   False
+    All loaded:      True
+    N classes:       2
+
+2025/03/31 16:17:12 | INFO | Inferred DPE: 128, n_channels=2 for dataset queue '<psg_utils.dataset.queue.eager_queue.EagerQueue object at 0x7f14db6deb80>'
+
+2025/03/31 16:17:12 | INFO | Creating sequence class '<class 'utime.sequences.balanced_random_batch_sequence.BalancedRandomBatchSequence'>'
+
+2025/03/31 16:17:12 | INFO | 
+[*] BalancedRandomBatchSequence initialized (mros/VAL):
+    Data queue type: <class 'psg_utils.dataset.queue.eager_queue.EagerQueue'>
+    Batch shape:     [64, 35, 128, 2]
+    Sample prob.:    [0.5, 0.5]
+    N pairs:         9
+    Margin:          17
+    Augmenters:      []
+    Aug enabled:     False
+    Batch scaling:   False
+    All loaded:      True
+    N classes:       2
+
+2025/03/31 16:17:12 | INFO | 
+[*] ValidationMultiSequence initialized:
+    --- Contains 1 sequences
+    --- Sequence IDs: mros
+
+2025/03/31 16:17:12 | INFO | Waiting for free N=1 GPU(s)...
+
+2025/03/31 16:17:13 | INFO | Setting CUDA_VISIBLE_DEVICES = '0'
+
+2025/03/31 16:17:14 | INFO | Using TF distribution strategy: <tensorflow.python.distribute.mirrored_strategy.MirroredStrategy object at 0x7f14db718610> on GPUs: ['/device:GPU:0']. (CPU:0 if empty).
+
+2025/03/31 16:17:14 | INFO | Creating new model of type 'USleep'
+
+2025/03/31 16:17:14 | INFO | Found requested class 'elu' in module '<module 'keras.api._v2.keras.activations' from '/home/husted/anaconda3/envs/u-sleep/lib/python3.9/site-packages/keras/api/_v2/keras/activations/__init__.py'>'
+
+2025/03/31 16:17:14 | INFO | 
+USleep Model Summary
+--------------------
+N periods:         35
+Input dims:        128
+N channels:        2
+N classes:         2
+Kernel size:       9
+Dilation rate:     1
+CF factor:         1.670
+Init filters:      5
+Depth:             12
+Pool size:         2
+Transition window  1
+Dense activation   tanh
+l2 reg:            None
+Padding:           same
+Conv activation:   elu
+Receptive field:   73719
+Seq length.:       4480
+N params:          3119270
+Input:             KerasTensor(type_spec=TensorSpec(shape=(None, 35, 128, 2), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'")
+Output:            KerasTensor(type_spec=TensorSpec(shape=(None, 35, 2), dtype=tf.float32, name=None), name='output_reshape/Reshape:0', description="created by layer 'output_reshape'")
+
+2025/03/31 16:17:14 | INFO | Found requested class 'Adam' in module '<module 'keras.api._v2.keras.optimizers' from '/home/husted/anaconda3/envs/u-sleep/lib/python3.9/site-packages/keras/api/_v2/keras/optimizers/__init__.py'>'
+
+2025/03/31 16:17:14 | INFO | Found requested class 'SparseCategoricalCrossentropy' in module '<module 'keras.api._v2.keras.losses' from '/home/husted/anaconda3/envs/u-sleep/lib/python3.9/site-packages/keras/api/_v2/keras/losses/__init__.py'>'
+
+2025/03/31 16:17:14 | INFO | Wrapping loss/metric function '<bound method LossFunctionWrapper.call of <keras.losses.SparseCategoricalCrossentropy object at 0x7f14d8947b80>>' to ignore 'true' classes with integer values outside of the model prediction integer range (e.g., ignoring true class labels of value 5 or -1 if n_classes=5, i.e. when model outputs values in [0, 1, 2, 3, 4]).
+
+2025/03/31 16:17:14 | INFO | Found requested class 'SparseCategoricalAccuracy' in module '<module 'tensorflow.keras.metrics' from '/home/husted/anaconda3/envs/u-sleep/lib/python3.9/site-packages/keras/api/_v2/keras/metrics/__init__.py'>'
+
+2025/03/31 16:17:14 | INFO | Wrapping loss/metric function '<bound method Metric.__new__.<locals>.update_state_fn of <keras.metrics.SparseCategoricalAccuracy object at 0x7f14d88e3970>>' to ignore 'true' classes with integer values outside of the model prediction integer range (e.g., ignoring true class labels of value 5 or -1 if n_classes=5, i.e. when model outputs values in [0, 1, 2, 3, 4]).
+
+2025/03/31 16:17:14 | INFO | 
+Optimizer:   <keras.optimizer_v2.adam.Adam object at 0x7f14db071be0>
+Loss funcs:  [<keras.losses.SparseCategoricalCrossentropy object at 0x7f14d8947b80>]
+Metrics:     [<keras.metrics.SparseCategoricalAccuracy object at 0x7f14d88e3970>]
+
+2025/03/31 16:17:14 | INFO | Using 1 steps per train epoch
+
+2025/03/31 16:17:14 | INFO | [1] Using callback: PrintDividerLine(params=?)
+
+2025/03/31 16:17:14 | INFO | [2] Using callback: Validation(params=?)
+
+2025/03/31 16:17:14 | INFO | [3] Using callback: MeanReduceLogArrays(params=?)
+
+2025/03/31 16:17:14 | INFO | [4] Using callback: TensorBoard(log_dir=./tensorboard, profile_batch=0)
+
+2025/03/31 16:17:14 | INFO | [5] Using callback: ModelCheckpoint(filepath=./model/@epoch_{epoch:02d}_val_dice_{val_dice:.5f}.h5, monitor=val_dice, save_best_only=False, save_weights_only=True, verbose=1, mode=max)
+
+2025/03/31 16:17:14 | INFO | [6] Using callback: TrainTimer(verbose=True)
+
+2025/03/31 16:17:14 | INFO | [7] Using callback: CSVLogger(filename=logs/training.csv, separator=,, append=True)
+
+2025/03/31 16:17:14 | INFO | [8] Using callback: EarlyStopping(monitor=val_dice, min_delta=0, patience=200, verbose=1, mode=max)
+
+2025/03/31 16:17:14 | INFO | [9] Using callback: LearningCurve(params=?)
+
+2025/03/31 16:17:14 | INFO | [10] Using callback: PrintDividerLine(params=?)
+
+2025/03/31 16:17:37 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 0
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.770    ---    ---
+sparse_categorical_accuracy  0.135    ---    ---
+precision                    0.490  0.947  0.034
+recall                       0.473  0.111  0.834
+dice                         0.132  0.199  0.066
+
+2025/03/31 16:17:37 | INFO | [TrainTimer] Epoch time: 0.35 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:40 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 1
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.768    ---    ---
+sparse_categorical_accuracy  0.140    ---    ---
+precision                    0.489  0.944  0.034
+recall                       0.467  0.117  0.817
+dice                         0.137  0.209  0.065
+
+2025/03/31 16:17:40 | INFO | [TrainTimer] Epoch time: 0.05 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:43 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 2
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.767    ---    ---
+sparse_categorical_accuracy  0.147    ---    ---
+precision                    0.490  0.946  0.034
+recall                       0.467  0.127  0.808
+dice                         0.144  0.223  0.065
+
+2025/03/31 16:17:44 | INFO | [TrainTimer] Epoch time: 0.05 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:46 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 3
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.764    ---    ---
+sparse_categorical_accuracy  0.142    ---    ---
+precision                    0.489  0.944  0.034
+recall                       0.466  0.119  0.812
+dice                         0.138  0.212  0.064
+
+2025/03/31 16:17:46 | INFO | [TrainTimer] Epoch time: 0.05 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:49 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 4
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.767    ---    ---
+sparse_categorical_accuracy  0.154    ---    ---
+precision                    0.487  0.942  0.033
+recall                       0.457  0.133  0.781
+dice                         0.148  0.233  0.063
+
+2025/03/31 16:17:50 | INFO | [TrainTimer] Epoch time: 0.05 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:52 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 5
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.769    ---    ---
+sparse_categorical_accuracy  0.135    ---    ---
+precision                    0.490  0.945  0.034
+recall                       0.470  0.112  0.827
+dice                         0.133  0.201  0.065
+
+2025/03/31 16:17:52 | INFO | [TrainTimer] Epoch time: 0.04 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:54 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 6
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.767    ---    ---
+sparse_categorical_accuracy  0.144    ---    ---
+precision                    0.486  0.940  0.033
+recall                       0.456  0.123  0.789
+dice                         0.140  0.218  0.063
+
+2025/03/31 16:17:54 | INFO | [TrainTimer] Epoch time: 0.04 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:56 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 7
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.770    ---    ---
+sparse_categorical_accuracy  0.146    ---    ---
+precision                    0.488  0.944  0.033
+recall                       0.463  0.125  0.802
+dice                         0.142  0.220  0.064
+
+2025/03/31 16:17:56 | INFO | [TrainTimer] Epoch time: 0.04 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:17:59 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 8
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.763    ---    ---
+sparse_categorical_accuracy  0.142    ---    ---
+precision                    0.489  0.945  0.034
+recall                       0.467  0.120  0.815
+dice                         0.139  0.213  0.065
+
+2025/03/31 16:17:59 | INFO | [TrainTimer] Epoch time: 0.04 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:18:01 | INFO | 
+
+-------------------------------------
+[mros] Validation Results for Epoch 9
+-------------------------------------
+                              mean  cls 0  cls 1
+loss                         0.766    ---    ---
+sparse_categorical_accuracy  0.147    ---    ---
+precision                    0.488  0.943  0.033
+recall                       0.462  0.126  0.798
+dice                         0.143  0.223  0.064
+
+2025/03/31 16:18:01 | INFO | [TrainTimer] Epoch time: 0.04 minutes - Total train time: 0.01 hours
+
+2025/03/31 16:18:02 | INFO | Training stopped.
+
+2025/03/31 16:18:02 | INFO | Saving current model to: /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/model/model_weights.h5

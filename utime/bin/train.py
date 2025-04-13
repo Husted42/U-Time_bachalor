@@ -267,8 +267,26 @@ def run(args):
         if parameter_file:
             load_from_file(model, parameter_file, by_name=True)
 
-        # Prepare a trainer object and compile the model
+        ##### Prepare a trainer object and compile the model#####
+        print("\n\nFreeing cold workspace ")
         trainer = Trainer(model)
+
+
+
+        i = 1
+        for layer in trainer.model.layers:
+            if layer.name == "sequence_conv_out_1" or layer.name == "sequence_conv_out_2":
+                layer.trainable = True
+            else:
+                layer.trainable = False
+            i += 1
+
+        print("Weights overview:")
+        print("weights:", len(trainer.model.weights))
+        print("trainable_weights:", len(trainer.model.trainable_weights))
+        print("non_trainable_weights:", len(trainer.model.non_trainable_weights))
+
+
         trainer.compile_model(n_classes=hparams["build"].get("n_classes"),
                               reduction=tf.keras.losses.Reduction.NONE,
                               **hparams["fit"])

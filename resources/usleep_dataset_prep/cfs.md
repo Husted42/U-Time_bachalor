@@ -2,17 +2,17 @@
 
 #### Extract command
 ```
-ut extract --file_regex '[LOCAL_PATH]/cfs/polysomnography/edfs/*.edf' --out_dir '[LOCAL_PATH]/processed/cfs/' --resample 128 --channels C3-A2 C4-A1 LOC-A2 ROC-A1 --overwrite
+ut extract --file_regex '/mnt/d/datasets/cfs/polysomnography/edfs/*.edf' --out_dir '/mnt/d/datasets/processed/cfs/' --resample 128 --channels C3-A2 C4-A1 LOC-A2 ROC-A1 --overwrite
 ```
 
 #### Extract hypno command
 ```
-ut extract_hypno --file_regex '[LOCAL_PATH]/cfs/polysomnography/annotations-events-nsrr/*.xml' --out_dir '[LOCAL_PATH]/processed/cfs/'
+ut extract_hypno --file_regex '/mnt/d/datasets/cfs/polysomnography/annotations-events-nsrr/*.xml' --out_dir '/mnt/d/datasets/processed/cfs/'
 ```
 
 #### Views command
 ```
-ut cv_split --data_dir '[LOCAL_PATH]/processed/cfs/' --subject_dir_pattern 'cfs*' --CV 1 --validation_fraction 0.10 --max_validation_subjects 50 --test_fraction 0.15 --max_test_subjects 100 --subject_matching_regex '.*famID(.*)'
+ut cv_split --data_dir '/mnt/d/datasets/processed/cfs/' --subject_dir_pattern 'cfs*' --CV 1 --validation_fraction 0.10 --max_validation_subjects 50 --test_fraction 0.15 --max_test_subjects 100 --subject_matching_regex '.*famID(.*)'
 ```
 
 Notes: 

@@ -100,6 +100,10 @@ def entry_func():
     # Import the script
     mod = importlib.import_module("utime.bin." + script)
 
+    print(f"Running script args: {script_args}")
+    print(f"Running help args: {help_agrs}")
+    
+
     # Call entry function with remaining arguments
     mod.entry_func(script_args + help_agrs)
 

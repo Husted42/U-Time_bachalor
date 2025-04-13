@@ -1,5 +1,9 @@
 # Components prefixed CB are for callback hyperparameter settings
 
+__package_info__:
+  package: utime
+  version: 1.1.8
+
 CB_tb: &TB
   # tensorboard
   nickname: tb
@@ -71,9 +75,13 @@ build:
   dilation: 1
   transition_window: 1
   complexity_factor: 1.67
-  n_classes: 5
+  n_classes: 2
   l2_reg:
-  batch_shape: [64, 35, 3840, 2]
+  batch_shape:
+  - 64
+  - 35
+  - 128
+  - 2
 
 augmenters:
   # On-the-fly augmentation

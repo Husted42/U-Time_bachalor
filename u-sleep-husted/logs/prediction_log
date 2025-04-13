@@ -1,0 +1,139 @@
+
+2025/03/31 16:19:44 | INFO | Args dump: 
+{'folder_regex': None, 'data_per_prediction': None, 'channels': None, 'majority': True, 'datasets': None, 'data_split': 'test_data', 'out_dir': 'predictions', 'num_gpus': 1, 'strip_func': 'strip_to_match', 'filter_settings': None, 'notch_filter_settings': None, 'num_test_time_augment': 0, 'one_shot': True, 'save_true': True, 'force_gpus': '', 'no_argmax': False, 'weights_file_name': None, 'continue_': False, 'overwrite': True, 'log_file': 'prediction_log', 'move_study_to_folder_on_error': None}
+
+2025/03/31 16:19:44 | INFO | Waiting for free N=1 GPU(s)...
+
+2025/03/31 16:19:44 | INFO | Setting CUDA_VISIBLE_DEVICES = '0'
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] SleepStudyDataset(identifier: mros/TEST, N pairs: 13, N loaded: 0)
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] Setting sample rate of 128 Hz
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] Setting misc dictionary: {'channel_groups': [['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]}
+
+2025/03/31 16:19:44 | INFO | [Dataset: mros/TEST] Setting 'RobustScaler' scaler...
+
+2025/03/31 16:19:44 | INFO | [*] Running eval on dataset SleepStudyDataset(identifier: mros/TEST, N pairs: 13, N loaded: 0)
+    Out dir: /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros
+
+2025/03/31 16:19:44 | INFO | 
+PREDICTING ON 13 STUDIES
+
+2025/03/31 16:19:46 | INFO | Inferred DPE: 128, n_channels=4 for dataset queue '<psg_utils.dataset.queue.lazy_queue.LazyQueue object at 0x7f0ff3905a30>'
+
+2025/03/31 16:19:46 | INFO | Creating sequence class '<class 'utime.sequences.batch_sequence.BatchSequence'>'
+
+2025/03/31 16:19:46 | INFO | Setting augmenter: RegionalErase(ordereddict([('min_region_fraction', 0.001), ('max_region_fraction', 0.33), ('log_sample', True), ('apply_prob', 0.1)]))
+
+2025/03/31 16:19:46 | INFO | Setting augmenter: ChannelDropout(ordereddict([('drop_fraction', 0.5), ('apply_prob', 0.1)]))
+
+2025/03/31 16:19:46 | INFO | [1/13] Predicting on SleepStudy: mros-visit1-aa0029
+
+2025/03/31 16:19:46 | INFO |  -- Channels: ('C3-M2', 'E1-M2')
+
+2025/03/31 16:19:53 | INFO | Saving array of shape (45030, 1) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0029_TRUE.npy
+
+2025/03/31 16:19:53 | INFO | Saving array of shape (45030,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E1-M2/mros-visit1-aa0029_PRED.npy
+
+2025/03/31 16:19:53 | INFO |  -- Channels: ('C3-M2', 'E2-M1')
+
+2025/03/31 16:19:57 | INFO | Saving array of shape (45030,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E2-M1/mros-visit1-aa0029_PRED.npy
+
+2025/03/31 16:19:57 | INFO |  -- Channels: ('C4-M1', 'E1-M2')
+
+2025/03/31 16:19:59 | INFO | Saving array of shape (45030,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E1-M2/mros-visit1-aa0029_PRED.npy
+
+2025/03/31 16:19:59 | INFO |  -- Channels: ('C4-M1', 'E2-M1')
+
+2025/03/31 16:20:02 | INFO | Saving array of shape (45030,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E2-M1/mros-visit1-aa0029_PRED.npy
+
+2025/03/31 16:20:02 | INFO | Saving array of shape (45030,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/majority/mros-visit1-aa0029_PRED.npy
+
+2025/03/31 16:20:02 | INFO | [2/13] Predicting on SleepStudy: mros-visit1-aa0032
+
+2025/03/31 16:20:02 | INFO |  -- Channels: ('C3-M2', 'E1-M2')
+
+2025/03/31 16:20:05 | INFO | Saving array of shape (26790, 1) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0032_TRUE.npy
+
+2025/03/31 16:20:05 | INFO | Saving array of shape (26790,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E1-M2/mros-visit1-aa0032_PRED.npy
+
+2025/03/31 16:20:05 | INFO |  -- Channels: ('C3-M2', 'E2-M1')
+
+2025/03/31 16:20:07 | INFO | Saving array of shape (26790,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E2-M1/mros-visit1-aa0032_PRED.npy
+
+2025/03/31 16:20:07 | INFO |  -- Channels: ('C4-M1', 'E1-M2')
+
+2025/03/31 16:20:10 | INFO | Saving array of shape (26790,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E1-M2/mros-visit1-aa0032_PRED.npy
+
+2025/03/31 16:20:10 | INFO |  -- Channels: ('C4-M1', 'E2-M1')
+
+2025/03/31 16:20:12 | INFO | Saving array of shape (26790,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E2-M1/mros-visit1-aa0032_PRED.npy
+
+2025/03/31 16:20:12 | INFO | Saving array of shape (26790,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/majority/mros-visit1-aa0032_PRED.npy
+
+2025/03/31 16:20:12 | INFO | [3/13] Predicting on SleepStudy: mros-visit1-aa0047
+
+2025/03/31 16:20:12 | INFO |  -- Channels: ('C3-M2', 'E1-M2')
+
+2025/03/31 16:20:16 | INFO | Saving array of shape (43680, 1) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0047_TRUE.npy
+
+2025/03/31 16:20:16 | INFO | Saving array of shape (43680,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E1-M2/mros-visit1-aa0047_PRED.npy
+
+2025/03/31 16:20:16 | INFO |  -- Channels: ('C3-M2', 'E2-M1')
+
+2025/03/31 16:20:19 | INFO | Saving array of shape (43680,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E2-M1/mros-visit1-aa0047_PRED.npy
+
+2025/03/31 16:20:19 | INFO |  -- Channels: ('C4-M1', 'E1-M2')
+
+2025/03/31 16:20:23 | INFO | Saving array of shape (43680,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E1-M2/mros-visit1-aa0047_PRED.npy
+
+2025/03/31 16:20:23 | INFO |  -- Channels: ('C4-M1', 'E2-M1')
+
+2025/03/31 16:20:26 | INFO | Saving array of shape (43680,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E2-M1/mros-visit1-aa0047_PRED.npy
+
+2025/03/31 16:20:26 | INFO | Saving array of shape (43680,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/majority/mros-visit1-aa0047_PRED.npy
+
+2025/03/31 16:20:26 | INFO | [4/13] Predicting on SleepStudy: mros-visit1-aa0051
+
+2025/03/31 16:20:26 | INFO |  -- Channels: ('C3-M2', 'E1-M2')
+
+2025/03/31 16:20:29 | INFO | Saving array of shape (46620, 1) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0051_TRUE.npy
+
+2025/03/31 16:20:29 | INFO | Saving array of shape (46620,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E1-M2/mros-visit1-aa0051_PRED.npy
+
+2025/03/31 16:20:29 | INFO |  -- Channels: ('C3-M2', 'E2-M1')
+
+2025/03/31 16:20:32 | INFO | Saving array of shape (46620,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E2-M1/mros-visit1-aa0051_PRED.npy
+
+2025/03/31 16:20:32 | INFO |  -- Channels: ('C4-M1', 'E1-M2')
+
+2025/03/31 16:20:36 | INFO | Saving array of shape (46620,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E1-M2/mros-visit1-aa0051_PRED.npy
+
+2025/03/31 16:20:36 | INFO |  -- Channels: ('C4-M1', 'E2-M1')
+
+2025/03/31 16:20:39 | INFO | Saving array of shape (46620,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E2-M1/mros-visit1-aa0051_PRED.npy
+
+2025/03/31 16:20:39 | INFO | Saving array of shape (46620,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/majority/mros-visit1-aa0051_PRED.npy
+
+2025/03/31 16:20:39 | INFO | [5/13] Predicting on SleepStudy: mros-visit1-aa0086
+
+2025/03/31 16:20:39 | INFO |  -- Channels: ('C3-M2', 'E1-M2')
+
+2025/03/31 16:20:43 | INFO | Saving array of shape (41490, 1) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0086_TRUE.npy
+
+2025/03/31 16:20:43 | INFO | Saving array of shape (41490,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E1-M2/mros-visit1-aa0086_PRED.npy
+
+2025/03/31 16:20:43 | INFO |  -- Channels: ('C3-M2', 'E2-M1')
+
+2025/03/31 16:20:47 | INFO | Saving array of shape (41490,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C3-M2+E2-M1/mros-visit1-aa0086_PRED.npy
+
+2025/03/31 16:20:47 | INFO |  -- Channels: ('C4-M1', 'E1-M2')
+
+2025/03/31 16:20:50 | INFO | Saving array of shape (41490,) to /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/predictions/test_data/mros/C4-M1+E1-M2/mros-visit1-aa0086_PRED.npy
+
+2025/03/31 16:20:50 | INFO |  -- Channels: ('C4-M1', 'E2-M1')
