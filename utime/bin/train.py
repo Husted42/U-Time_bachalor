@@ -275,6 +275,7 @@ def run(args):
 
         i = 1
         for layer in trainer.model.layers:
+            print(f"Layer {i}: {layer.name} - {layer.trainable}")
             if layer.name == "sequence_conv_out_1" or layer.name == "sequence_conv_out_2":
                 layer.trainable = True
             else:

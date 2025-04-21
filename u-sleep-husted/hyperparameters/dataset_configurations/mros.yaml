@@ -1,6 +1,6 @@
 train_data:
   # data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train
-  data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train/mros-visit1-aa0762/
+  data_dir: /mnt/d/datasets/processed/mros/views/fixed_split/train
   period_length: 1
   identifier: TRAIN
   psg_regex: .*[.]h5
