@@ -198,6 +198,8 @@ def run(args):
                     '''
                     for file_name in list_files_with_size('/mnt/d/datasets/processed/mros'):
                         remove_pairs(split.pairs, file_name)
+                    for file_name in list_files_with_size('/mnt/d/datasets/processed/cfs'):
+                        remove_pairs(split.pairs, file_name)
                     
                     for i, _ in enumerate(pool.map(process_func,
                                                    split.pairs)):
@@ -218,6 +220,8 @@ def list_files_with_size(local_path):
                     file = file.split('-nsrr')[0]
                     list_of_empty_files.append(file)
     print('Number of empty files:', i)
+    
+    list_of_empty_files.append('mros-visit1-aa3386')
     return list_of_empty_files
 
 def remove_pairs(pairs, identifier):

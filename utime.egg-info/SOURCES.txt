@@ -71,7 +71,6 @@ u-sleep-husted/hyperparameters/dataset_configurations/shhs.yaml
 u-sleep-husted/hyperparameters/dataset_configurations/sof.yaml
 u-sleep-husted/hyperparameters/dataset_configurations/svuh.yaml
 u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/mros.yaml
-u-sleep-husted/logs/preprocessing
 u-sleep-husted/logs/training_log
 u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0029_TRUE.npy
 u-sleep-husted/predictions/test_data/mros/mros-visit1-aa0032_TRUE.npy

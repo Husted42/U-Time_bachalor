@@ -46,7 +46,7 @@ def load_from_file(model, file_path, by_name=True):
         file_path:  A path to a parameter file (h5 format typically)
         by_name:    Load parameters by layer names instead of order (default).
     """
-    model.load_weights(file_path, by_name=by_name)
+    model.load_weights(file_path, by_name=by_name, skip_mismatch=True)
     logger.info(f"Loading parameters from: {file_path}")
 
 

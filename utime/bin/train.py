@@ -276,10 +276,10 @@ def run(args):
         i = 1
         for layer in trainer.model.layers:
             print(f"Layer {i}: {layer.name} - {layer.trainable}")
-            if layer.name == "sequence_conv_out_1" or layer.name == "sequence_conv_out_2":
+            if layer.name == "sequence_conv_out_1" or layer.name == "sequence_conv_out_2" or layer.name == "dense_classifier_out" or layer.name == "average_pool":
                 layer.trainable = True
             else:
-                layer.trainable = False
+                layer.trainable = False 
             i += 1
 
         print("Weights overview:")

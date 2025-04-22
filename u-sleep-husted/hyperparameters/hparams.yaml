@@ -42,9 +42,9 @@ datasets:
   #### Training datasets
   # shhs: dataset_configurations/shhs.yaml
   # chat: dataset_configurations/chat.yaml
-  # cfs: dataset_configurations/cfs.yaml
+  cfs: dataset_configurations/cfs.yaml
   # sof: dataset_configurations/sof.yaml
-  mros: dataset_configurations/mros.yaml
+  # mros: dataset_configurations/mros.yaml
   # ccshs: dataset_configurations/ccshs.yaml
   # mesa: dataset_configurations/mesa.yaml
   # hpap: dataset_configurations/hpap.yaml
