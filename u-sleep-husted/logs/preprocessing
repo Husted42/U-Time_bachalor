@@ -1,0 +1,248 @@
+
+2025/04/30 18:39:29 | INFO | Args dump: {'out_path': '../../../bachalor_project/data/processed_data.h5', 'dataset_splits': ['train_data', 'val_data', 'test_data'], 'overwrite': True, 'num_threads': 20, 'log_file': 'preprocessing'}
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] SleepStudyDataset(identifier: cfs/TRAIN, N pairs: 547, N loaded: 0)
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] SleepStudyDataset(identifier: cfs/VAL, N pairs: 73, N loaded: 0)
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] SleepStudyDataset(identifier: cfs/TEST, N pairs: 110, N loaded: 0)
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] Setting sample rate of 128 Hz
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] Setting sample rate of 128 Hz
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] Setting sample rate of 128 Hz
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TRAIN] Setting 'RobustScaler' scaler...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/VAL] Setting 'RobustScaler' scaler...
+
+2025/04/30 18:39:32 | INFO | [Dataset: cfs/TEST] Setting 'RobustScaler' scaler...
+
+2025/04/30 18:39:33 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 18:39:33 | INFO | [Dataset: cfs/TRAIN] Setting load-time random channel selector: None
+
+2025/04/30 18:39:33 | INFO | [Dataset: cfs/TRAIN] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 18:39:33 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: cfs/TRAIN, N pairs: 547, N loaded: 0)
+
+2025/04/30 18:57:49 | WARNING | Quality control for sample 'cfs-visit5-801806' affected 7536/46350 epochs in channel 0
+
+2025/04/30 19:07:04 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 19:07:04 | INFO | [Dataset: cfs/VAL] Setting load-time random channel selector: None
+
+2025/04/30 19:07:04 | INFO | [Dataset: cfs/VAL] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 19:07:04 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: cfs/VAL, N pairs: 73, N loaded: 0)
+
+2025/04/30 19:10:53 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 19:10:53 | INFO | [Dataset: cfs/TEST] Setting load-time random channel selector: None
+
+2025/04/30 19:10:53 | INFO | [Dataset: cfs/TEST] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 19:10:53 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: cfs/TEST, N pairs: 110, N loaded: 0)
+
+2025/04/30 19:13:14 | WARNING | Quality control for sample 'cfs-visit5-801144' affected 7460/41190 epochs in channel 3
+
+2025/04/30 19:16:56 | INFO | [Dataset: mros/TRAIN] SleepStudyDataset(identifier: mros/TRAIN, N pairs: 2946, N loaded: 0)
+
+2025/04/30 19:16:58 | INFO | [Dataset: mros/VAL] SleepStudyDataset(identifier: mros/VAL, N pairs: 393, N loaded: 0)
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] SleepStudyDataset(identifier: mros/TEST, N pairs: 590, N loaded: 0)
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/VAL] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] Setting load-time random channel selector: RandomChannelSelector(group_0: ['C3-M2', 'C4-M1'], group_1: ['E1-M2', 'E2-M1'])
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting sample rate of 128 Hz
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/VAL] Setting sample rate of 128 Hz
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] Setting sample rate of 128 Hz
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/VAL] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] Setting 'strip_to_match' strip function with parameters {}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/VAL] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] Setting 'clip_noisy_values' quality control function with parameters {'min_max_times_global_iqr': 20}...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting 'RobustScaler' scaler...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/VAL] Setting 'RobustScaler' scaler...
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TEST] Setting 'RobustScaler' scaler...
+
+2025/04/30 19:17:01 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting load-time random channel selector: None
+
+2025/04/30 19:17:01 | INFO | [Dataset: mros/TRAIN] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 19:17:01 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: mros/TRAIN, N pairs: 2946, N loaded: 0)
+
+2025/04/30 19:51:39 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 19:55:08 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 20:25:03 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 20:34:37 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 21:02:05 | WARNING | Quality control for sample 'mros-visit1-aa5256' affected 23072/71160 epochs in channel 2
+
+2025/04/30 21:04:27 | WARNING | Quality control for sample 'mros-visit1-aa5388' affected 15333/38460 epochs in channel 1
+
+2025/04/30 21:17:57 | WARNING | Quality control for sample 'mros-visit2-aa0260' affected 11045/54753 epochs in channel 1
+
+2025/04/30 21:17:57 | WARNING | Quality control for sample 'mros-visit2-aa0260' affected 16062/54753 epochs in channel 2
+
+2025/04/30 21:17:57 | WARNING | Quality control for sample 'mros-visit2-aa0260' affected 9323/54753 epochs in channel 3
+
+2025/04/30 21:18:44 | WARNING | Quality control for sample 'mros-visit2-aa0299' affected 9780/47887 epochs in channel 2
+
+2025/04/30 21:18:44 | WARNING | Quality control for sample 'mros-visit2-aa0299' affected 10028/47887 epochs in channel 3
+
+2025/04/30 21:25:40 | WARNING | Quality control for sample 'mros-visit2-aa1099' affected 12240/64765 epochs in channel 2
+
+2025/04/30 21:25:40 | WARNING | Quality control for sample 'mros-visit2-aa1099' affected 13464/64765 epochs in channel 3
+
+2025/04/30 21:31:50 | WARNING | Quality control for sample 'mros-visit2-aa1951' affected 9638/55667 epochs in channel 0
+
+2025/04/30 21:31:50 | WARNING | Quality control for sample 'mros-visit2-aa1951' affected 8956/55667 epochs in channel 3
+
+2025/04/30 21:33:55 | WARNING | Quality control for sample 'mros-visit2-aa2165' affected 9481/59774 epochs in channel 0
+
+2025/04/30 21:33:55 | WARNING | Quality control for sample 'mros-visit2-aa2165' affected 10160/59774 epochs in channel 1
+
+2025/04/30 21:36:58 | WARNING | Quality control for sample 'mros-visit2-aa2545' affected 14374/63415 epochs in channel 0
+
+2025/04/30 21:36:58 | WARNING | Quality control for sample 'mros-visit2-aa2545' affected 11542/63415 epochs in channel 1
+
+2025/04/30 21:39:33 | WARNING | Quality control for sample 'mros-visit2-aa2897' affected 9467/48841 epochs in channel 0
+
+2025/04/30 21:39:57 | WARNING | Quality control for sample 'mros-visit2-aa2936' affected 14200/65614 epochs in channel 2
+
+2025/04/30 21:43:50 | WARNING | Quality control for sample 'mros-visit2-aa3404' affected 11259/73719 epochs in channel 0
+
+2025/04/30 21:43:50 | WARNING | Quality control for sample 'mros-visit2-aa3404' affected 15315/73719 epochs in channel 1
+
+2025/04/30 21:49:39 | WARNING | Quality control for sample 'mros-visit2-aa4158' affected 9837/59340 epochs in channel 0
+
+2025/04/30 21:49:39 | WARNING | Quality control for sample 'mros-visit2-aa4158' affected 10126/59340 epochs in channel 1
+
+2025/04/30 21:50:30 | WARNING | Quality control for sample 'mros-visit2-aa4318' affected 13793/65166 epochs in channel 1
+
+2025/04/30 21:50:41 | WARNING | Quality control for sample 'mros-visit2-aa4332' affected 10877/62517 epochs in channel 2
+
+2025/04/30 21:51:16 | WARNING | Quality control for sample 'mros-visit2-aa4421' affected 12271/64354 epochs in channel 2
+
+2025/04/30 21:54:53 | WARNING | Quality control for sample 'mros-visit2-aa4822' affected 11089/47052 epochs in channel 1
+
+2025/04/30 21:54:53 | WARNING | Quality control for sample 'mros-visit2-aa4822' affected 10010/47052 epochs in channel 2
+
+2025/04/30 21:54:53 | WARNING | Quality control for sample 'mros-visit2-aa4822' affected 9989/47052 epochs in channel 3
+
+2025/04/30 21:55:58 | WARNING | Quality control for sample 'mros-visit2-aa4917' affected 42680/54439 epochs in channel 2
+
+2025/04/30 21:55:58 | WARNING | Quality control for sample 'mros-visit2-aa4917' affected 10917/54439 epochs in channel 3
+
+2025/04/30 21:56:57 | WARNING | Quality control for sample 'mros-visit2-aa5012' affected 16945/63542 epochs in channel 0
+
+2025/04/30 21:56:57 | WARNING | Quality control for sample 'mros-visit2-aa5012' affected 17860/63542 epochs in channel 1
+
+2025/04/30 21:57:41 | WARNING | Quality control for sample 'mros-visit2-aa5074' affected 14666/64905 epochs in channel 0
+
+2025/04/30 21:57:41 | WARNING | Quality control for sample 'mros-visit2-aa5074' affected 13617/64905 epochs in channel 1
+
+2025/04/30 21:59:30 | WARNING | Quality control for sample 'mros-visit2-aa5255' affected 12005/58800 epochs in channel 0
+
+2025/04/30 21:59:30 | WARNING | Quality control for sample 'mros-visit2-aa5255' affected 13237/58800 epochs in channel 1
+
+2025/04/30 21:59:30 | WARNING | Quality control for sample 'mros-visit2-aa5255' affected 12247/58800 epochs in channel 2
+
+2025/04/30 22:00:15 | WARNING | Quality control for sample 'mros-visit2-aa5352' affected 120909/121114 epochs in channel 2
+
+2025/04/30 22:00:15 | WARNING | Quality control for sample 'mros-visit2-aa5352' affected 21011/121114 epochs in channel 3
+
+2025/04/30 22:00:28 | WARNING | Quality control for sample 'mros-visit2-aa5386' affected 8868/58121 epochs in channel 3
+
+2025/04/30 22:00:47 | WARNING | Quality control for sample 'mros-visit2-aa5410' affected 21825/125943 epochs in channel 1
+
+2025/04/30 22:03:35 | WARNING | Quality control for sample 'mros-visit2-aa5747' affected 7605/38270 epochs in channel 0
+
+2025/04/30 22:03:35 | WARNING | Quality control for sample 'mros-visit2-aa5747' affected 7378/38270 epochs in channel 1
+
+2025/04/30 22:05:10 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 22:05:10 | INFO | [Dataset: mros/VAL] Setting load-time random channel selector: None
+
+2025/04/30 22:05:10 | INFO | [Dataset: mros/VAL] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 22:05:10 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: mros/VAL, N pairs: 393, N loaded: 0)
+
+2025/04/30 22:22:29 | WARNING | Quality control for sample 'mros-visit2-aa1762' affected 9871/36367 epochs in channel 0
+
+2025/04/30 22:22:29 | WARNING | Quality control for sample 'mros-visit2-aa1762' affected 9899/36367 epochs in channel 1
+
+2025/04/30 22:24:38 | WARNING | Quality control for sample 'mros-visit2-aa3657' affected 11346/63533 epochs in channel 0
+
+2025/04/30 22:25:53 | WARNING | Quality control for sample 'mros-visit2-aa4383' affected 25505/110696 epochs in channel 1
+
+2025/04/30 22:25:53 | WARNING | Quality control for sample 'mros-visit2-aa4383' affected 41842/110696 epochs in channel 2
+
+2025/04/30 22:27:31 | WARNING | Quality control for sample 'mros-visit2-aa5905' affected 29539/119449 epochs in channel 0
+
+2025/04/30 22:27:31 | WARNING | Quality control for sample 'mros-visit2-aa5905' affected 38294/119449 epochs in channel 1
+
+2025/04/30 22:27:31 | WARNING | Quality control for sample 'mros-visit2-aa5905' affected 119082/119449 epochs in channel 2
+
+2025/04/30 22:28:23 | INFO | Found channel sampling groups '[['C3-M2', 'C4-M1'], ['E1-M2', 'E2-M1']]'. Saving unique channels ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2'].
+
+2025/04/30 22:28:23 | INFO | [Dataset: mros/TEST] Setting load-time random channel selector: None
+
+2025/04/30 22:28:23 | INFO | [Dataset: mros/TEST] Setting select channels: ['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']
+
+2025/04/30 22:28:23 | INFO | Preprocessing dataset: SleepStudyDataset(identifier: mros/TEST, N pairs: 590, N loaded: 0)
+
+2025/04/30 22:34:34 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 22:41:11 | WARNING | Loading only 2 (['C4-M1', 'C3-M2']) channels although 4 (['C4-M1', 'E2-M1', 'E1-M2', 'C3-M2']) were requested. This is allowed only because the 'allow_missing_channels' parameter was explicitly set True for this call.
+
+2025/04/30 22:55:50 | WARNING | Quality control for sample 'mros-visit2-aa2506' affected 11736/58417 epochs in channel 0
+
+2025/04/30 22:55:50 | WARNING | Quality control for sample 'mros-visit2-aa2506' affected 10884/58417 epochs in channel 1
+
+2025/04/30 23:01:05 | WARNING | Quality control for sample 'mros-visit2-aa5357' affected 8468/54817 epochs in channel 3
+
+2025/04/30 23:01:31 | WARNING | Quality control for sample 'mros-visit2-aa5623' affected 8187/49715 epochs in channel 0
+
+2025/04/30 23:01:31 | WARNING | Quality control for sample 'mros-visit2-aa5623' affected 8274/49715 epochs in channel 1

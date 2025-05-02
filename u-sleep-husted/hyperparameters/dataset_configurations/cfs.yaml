@@ -13,7 +13,7 @@ val_data:
   hyp_regex: .*[.]ids
 
 test_data:
-  data_dir: /mnt/d/datasets/cfs/views/fixed_split/test
+  data_dir: /mnt/d/datasets/processed/cfs/views/fixed_split/test
   period_length: 1
   identifier: TEST
   psg_regex: .*[.]h5
