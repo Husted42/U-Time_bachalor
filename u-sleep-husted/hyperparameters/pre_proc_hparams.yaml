@@ -116,7 +116,7 @@ fit:
   n_epochs: 12000
   verbose: true
   optimizer: Adam
-  optimizer_kwargs: {learning_rate: 1.0e-05, amsgrad: true, decay: 0.0, beta_1: 0.9,
+  optimizer_kwargs: {learning_rate: 1.0e-08, amsgrad: true, decay: 0.0, beta_1: 0.9,
     beta_2: 0.999, epsilon: 1.0e-8}
 
   # Callbacks

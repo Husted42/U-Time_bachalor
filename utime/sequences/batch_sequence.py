@@ -210,6 +210,7 @@ class BatchSequence(BaseSequence):
         Return a batch of data by overall dataset batch index
         See self.get_batch for docstring
         """
+        print("[DEBUG] - __getitem__")
         if idx < 0:
             # Allow negative indexing
             idx = len(self)+idx
@@ -243,6 +244,7 @@ class BatchSequence(BaseSequence):
             X: ndarray of PSG data, shape [-1, data_per_period, n_channels]
             y: ndarray of labels, shape [-1, 1]
         """
+        print("[DEBUG] - get_single_study_full_seq")
         with self.dataset_queue.get_study_by_id(study_id) as ss:
             x, y = ss.get_all_periods()
             if reshape:
@@ -280,6 +282,7 @@ class BatchSequence(BaseSequence):
                shape [1, 2*margin+1, data_per_period, n_channels]
             y: ndarray of labels, shape [1, 2*margin+1, 1]
         """
+        print("[DEBUG] - single_study_seq_generator")
         margin = margin or self.margin
         if not margin:
             raise ValueError("Must set the self.margin property or pass a "
@@ -315,6 +318,7 @@ class BatchSequence(BaseSequence):
                shape [batch_size, data_per_period, n_channels]
             y: ndarray of labels, shape [batch_size, 1]
         """
+        print("[DEBUG] - single_study_batch_generator")
         if self.margin:
             raise ValueError("Cannot use 'single_study_batch_generator' with "
                              "self.margin set. Consider using "
@@ -353,6 +357,12 @@ class BatchSequence(BaseSequence):
             X, ndarray of shape [margin*2+1, data_per_period, n_channels]
             y, ndarray of shape [margin*2+1, 1] class labels
         """
+        print("[get_period()")
+        print(margin, self.margin)
+        print("sleep_study", sleep_study)
+        print("period_idx", period_idx)
+        print("allow_shift_at_border", allow_shift_at_border)
+        print("return_shifted_idx", return_shifted_idx)
         margin = margin or self.margin
         n_periods = sleep_study.n_periods
         try:
@@ -379,6 +389,7 @@ class BatchSequence(BaseSequence):
         See self.get_batch docstring.
         """
         X, y = [], []
+        print("[DEBUG] - _get_periods_in_range")
         for period_idx in range(start, end):
             X_, y_ = self.get_period(sleep_study, period_idx,
                                      allow_shift_at_border=False)
@@ -435,6 +446,7 @@ class BatchSequence(BaseSequence):
                                                 local_period_end)
             X[len(xx)] = xx
             y[len(yy)] = yy
+            print("[DEBUG] - ", xx, xx.shape, yy, yy.shape)
 
         if periods_in_next_ss and len(self.dataset_queue) > study_idx + 1:
             with self.dataset_queue.get_study_by_idx(study_idx + 1) as next_sleep_study:
@@ -442,8 +454,11 @@ class BatchSequence(BaseSequence):
                     raise NotImplementedError("Batch spans three SleepPairs. "
                                               "Handling this situation is not "
                                               "yet implemented.")
+                print("[DEBUG] - periods_in_next_ss", periods_in_next_ss)
                 xx, yy = self._get_periods_in_range(sleep_study, self.margin,
                                                     self.margin+periods_in_next_ss)
                 X[-periods_in_next_ss:] = xx
                 y[-periods_in_next_ss:] = yy
+        print("[DEBUG] - X.shape", X.shape)
+        print("[DEBUG] - y.shape", y.shape)
         return self.process_batch(X, y)

@@ -157,9 +157,11 @@ class MultiSequence(_BaseSequence):
             try:
                 # Currently only supported BalancedRandomBatchSequence
                 # and RandomBatchSequence. Try balanced first.
+                ["Debug - BalancedRandomBatchSequence"]
                 xx, yy = sequence.get_class_balanced_random_period()
             except AttributeError:
                 # Fall back to RandomBatchSequence
+                ["Debug - RandomBatchSequence"]
                 xx, yy = sequence.get_random_period()
             X[i] = xx
             y[i] = yy
