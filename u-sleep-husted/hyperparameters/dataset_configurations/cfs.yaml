@@ -21,7 +21,7 @@ test_data:
 
 set_sample_rate: 128
 
-channel_sampling_groups: [[C3-M2, C4-M1], [E1-M2, E2-M1]]
+channel_sampling_groups: [['C3-A2', 'C4-A1'], ['LOC-A2', 'ROC-A1']]
 
 sleep_stage_annotations:
   True: 1

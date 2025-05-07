@@ -259,7 +259,6 @@ def get_samples_per_epoch(train_seq, max_train_samples_per_epoch):
         m = train_seq.margin*2+1
         train_samples_per_epoch = int(train_samples_per_epoch / m)
         print("Number of traning_samples per epoch: ", train_samples_per_epoch)
-        train_samples_per_epoch = 10 # TODO: remove this line
     return train_samples_per_epoch
 
 

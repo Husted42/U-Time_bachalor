@@ -81,6 +81,15 @@ class MultiSequence(_BaseSequence):
         if not no_log:
             self.log()
 
+    '''
+        Manually added __str__ method to make it easier to debug the MultiSequence
+    '''
+    def __str__(self):
+        return (f"MultiSequence with {len(self.sequences)} sequences | "
+                f"Batch size: {self.batch_size} | "
+                f"Total samples: {len(self)} | "
+                f"Sample probs: {self.sample_prob}")
+
     def log(self):
         logger.info(f"\n[*] MultiSequence initialized:\n"
                     f"    --- Contains {len(self.sequences)} sequences\n"

@@ -86,6 +86,8 @@ class Trainer(object):
         fitting = True
         while fitting:
             try:
+                print(f"[DEBUG - Trainer] Batch size: {batch_size}")
+                print(f"[DEBUG - Trainer] fit kwargs: {fit_kwargs}")  # train_samples_per_epoch is set to 10
                 self._fit(batch_size=batch_size, **fit_kwargs)
                 fitting = False
             except (ResourceExhaustedError, InternalError):
@@ -130,8 +132,11 @@ class Trainer(object):
                                         of multithreading.
         """
         train.batch_size = batch_size
+        logger.info(f"[DEBUG - Trainer] Training with batch size {batch_size}")
+        logger.info(f"[DEBUG - Trainer] Training with {len(train)} training samples")
+        logger.info(f"[DEBUG - Trainer] train_samples_per_epoch :  {train_samples_per_epoch}")
         train_steps = get_steps(train_samples_per_epoch, train)
-        logger.info(f"Using {train_steps} steps per train epoch")
+        logger.info(f"[DEBUG - Trainer] Using {train_steps} steps per train epoch")
 
         if val is None:
             # No validation to be performed, remove callbacks that might need

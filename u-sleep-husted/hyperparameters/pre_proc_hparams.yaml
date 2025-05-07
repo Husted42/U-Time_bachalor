@@ -42,9 +42,11 @@ datasets:
   #### Training datasets
   # shhs: dataset_configurations/shhs.yaml
   # chat: dataset_configurations/chat.yaml
-  cfs: /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/cfs.yaml
+  cfs: 
+    /home/wqg382/github/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/cfs.yaml
   # sof: dataset_configurations/sof.yaml
-  mros: /mnt/c/Users/huste/Documents/Github/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/mros.yaml
+  mros: 
+    /home/wqg382/github/U-Time_bachalor/u-sleep-husted/hyperparameters/dataset_configurations/preprocessed/mros.yaml
   # ccshs: dataset_configurations/ccshs.yaml
   # mesa: dataset_configurations/mesa.yaml
   # hpap: dataset_configurations/hpap.yaml
@@ -114,7 +116,7 @@ fit:
   n_epochs: 12000
   verbose: true
   optimizer: Adam
-  optimizer_kwargs: {learning_rate: 1.0e-07, amsgrad: true, decay: 0.0, beta_1: 0.9,
+  optimizer_kwargs: {learning_rate: 1.0e-05, amsgrad: true, decay: 0.0, beta_1: 0.9,
     beta_2: 0.999, epsilon: 1.0e-8}
 
   # Callbacks

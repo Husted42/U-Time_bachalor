@@ -147,6 +147,7 @@ class BalancedRandomBatchSequence(BatchSequence):
                     if self.margin > 0:
                         # Shift the idx randomly within the window
                         idx += np.random.randint(-self.margin, self.margin+1)
+                    # print(f"[DEBUG] Loading period from study: {sleep_study.identifier}")
                     X_, y_ = self.get_period(sleep_study=sleep_study,
                                              period_idx=idx,
                                              allow_shift_at_border=True)

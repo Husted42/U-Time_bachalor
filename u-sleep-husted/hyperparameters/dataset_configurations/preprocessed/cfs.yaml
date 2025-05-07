@@ -1,4 +1,4 @@
-channel_sampling_groups: [[C3-M2, C4-M1], [E1-M2, E2-M1]]
+channel_sampling_groups: [['C3-A2', 'C4-A1'], ['LOC-A2', 'ROC-A1']]
 train_data:
   data_dir: ../../../bachalor_project/data/processed_data.h5
   period_length: 1.0

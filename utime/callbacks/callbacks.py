@@ -98,9 +98,14 @@ class Validation(Callback):
                                                             n_val)
                 print(s, end="\r", flush=True)
 
-                with sleep_study_context as ss:
-                    x, y = sequence.get_single_study_full_seq(ss.identifier, reshape=True)
-                    pred = self.model.predict_on_batch(x)
+                try:
+                    with sleep_study_context as ss:
+                        x, y = sequence.get_single_study_full_seq(ss.identifier, reshape=True)
+                        print(f"[DEBUG] Study data shape: x={x.shape}, y={y.shape}")
+                        pred = self.model.predict_on_batch(x)
+                except Exception as e:
+                    print(f"[ERROR] Validation subject {i+1} crashed: {e}")
+                    raise
 
                 # Compute counts
                 if hasattr(pred, "numpy"):

@@ -293,7 +293,10 @@ def run(args):
                               **hparams["fit"])
 
     # Fit the model on a number of samples as specified in args
+    logger.info(f"[DEBUG - Train] Training on {train_seq} training samples")
+    logger.info(f"[DEBUG] {args.max_train_samples_per_epoch} ")
     samples_pr_epoch = get_samples_per_epoch(train_seq, args.max_train_samples_per_epoch)
+    logger.info(f"[DEBUG] samples_pr_epoch: {samples_pr_epoch}")
 
     try:
         _ = trainer.fit(train=train_seq,
