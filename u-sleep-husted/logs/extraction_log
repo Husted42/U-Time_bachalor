@@ -1,0 +1,189 @@
+
+2025/05/05 17:13:01 | INFO | Args dump: {'file_regex': '/mnt/d/datasets/cfs/polysomnography/edfs/*.edf', 'out_dir': '/mnt/d/datasets/processed/cfs/', 'channels': ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1'], 'rename_channels': None, 'resample': 128, 'use_dir_names': False, 'trim_leading_seconds_dict': None, 'overwrite': True, 'continue_': False, 'log_file': 'extraction_log'}
+
+2025/05/05 17:13:01 | INFO | Found 730 files matching glob statement
+
+2025/05/05 17:13:01 | INFO | Extracting channels ['C3-M2', 'C4-M1', 'E1-M2', 'E2-M1']
+Saving .h5 files to '/mnt/d/datasets/processed/cfs'
+Re-sampling: 128
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
+
+2025/05/05 17:13:01 | INFO | 
+------------------
+[*] 1/730 Processing cfs-visit5-800002
+
+2025/05/05 17:13:02 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:04 | INFO | [*] Original PSG shape: (4826880, 4)
+
+2025/05/05 17:13:04 | INFO | [*] PSG shape after re-sampling: (4826880, 4)
+
+2025/05/05 17:13:04 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:05 | INFO | 
+------------------
+[*] 2/730 Processing cfs-visit5-800010
+
+2025/05/05 17:13:05 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, POSITION-None, OX_STATUS-None, PULSE-None, SAO2-None, NASAL_PRES-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:06 | INFO | [*] Original PSG shape: (5141760, 4)
+
+2025/05/05 17:13:06 | INFO | [*] PSG shape after re-sampling: (5141760, 4)
+
+2025/05/05 17:13:06 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:08 | INFO | 
+------------------
+[*] 3/730 Processing cfs-visit5-800011
+
+2025/05/05 17:13:08 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, POSITION-None, OX_STATUS-None, PULSE-None, SAO2-None, NASAL_PRES-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:09 | INFO | [*] Original PSG shape: (4784640, 4)
+
+2025/05/05 17:13:09 | INFO | [*] PSG shape after re-sampling: (4784640, 4)
+
+2025/05/05 17:13:09 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:11 | INFO | 
+------------------
+[*] 4/730 Processing cfs-visit5-800017
+
+2025/05/05 17:13:11 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, POSITION-None, OX_STATUS-None, PULSE-None, SAO2-None, NASAL_PRES-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:13 | INFO | [*] Original PSG shape: (4654080, 4)
+
+2025/05/05 17:13:13 | INFO | [*] PSG shape after re-sampling: (4654080, 4)
+
+2025/05/05 17:13:13 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:14 | INFO | 
+------------------
+[*] 5/730 Processing cfs-visit5-800021
+
+2025/05/05 17:13:14 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, POSITION-None, OX_STATUS-None, PULSE-None, SAO2-None, NASAL_PRES-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:15 | INFO | [*] Original PSG shape: (5053440, 4)
+
+2025/05/05 17:13:15 | INFO | [*] PSG shape after re-sampling: (5053440, 4)
+
+2025/05/05 17:13:15 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:17 | INFO | 
+------------------
+[*] 6/730 Processing cfs-visit5-800024
+
+2025/05/05 17:13:17 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:19 | INFO | [*] Original PSG shape: (4696320, 4)
+
+2025/05/05 17:13:19 | INFO | [*] PSG shape after re-sampling: (4696320, 4)
+
+2025/05/05 17:13:19 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:20 | INFO | 
+------------------
+[*] 7/730 Processing cfs-visit5-800027
+
+2025/05/05 17:13:20 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:22 | INFO | [*] Original PSG shape: (4508160, 4)
+
+2025/05/05 17:13:22 | INFO | [*] PSG shape after re-sampling: (4508160, 4)
+
+2025/05/05 17:13:22 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:23 | INFO | 
+------------------
+[*] 8/730 Processing cfs-visit5-800032
+
+2025/05/05 17:13:23 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:25 | INFO | [*] Original PSG shape: (4439040, 4)
+
+2025/05/05 17:13:25 | INFO | [*] PSG shape after re-sampling: (4439040, 4)
+
+2025/05/05 17:13:25 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:27 | INFO | 
+------------------
+[*] 9/730 Processing cfs-visit5-800035
+
+2025/05/05 17:13:27 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, POSITION-None, OX_STATUS-None, PULSE-None, SAO2-None, NASAL_PRES-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:28 | INFO | [*] Original PSG shape: (5160960, 4)
+
+2025/05/05 17:13:28 | INFO | [*] PSG shape after re-sampling: (5160960, 4)
+
+2025/05/05 17:13:28 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:29 | INFO | 
+------------------
+[*] 10/730 Processing cfs-visit5-800037
+
+2025/05/05 17:13:29 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:31 | INFO | [*] Original PSG shape: (4711680, 4)
+
+2025/05/05 17:13:31 | INFO | [*] PSG shape after re-sampling: (4711680, 4)
+
+2025/05/05 17:13:31 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:33 | INFO | 
+------------------
+[*] 11/730 Processing cfs-visit5-800038
+
+2025/05/05 17:13:33 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:35 | INFO | [*] Original PSG shape: (4581120, 4)
+
+2025/05/05 17:13:35 | INFO | [*] PSG shape after re-sampling: (4581120, 4)
+
+2025/05/05 17:13:35 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
+
+2025/05/05 17:13:36 | INFO | 
+------------------
+[*] 12/730 Processing cfs-visit5-800040
+
+2025/05/05 17:13:36 | INFO | 
+[*] Channels in file: C3-None, C4-None, M1-None, M2-None, E1-None, E2-None, ECG2-None, ECG1-None, EMG1-None, EMG2-None, EMG3-None, L_LEG-None, R_LEG-None, AIRFLOW-None, THOR_EFFORT-None, ABDO_EFFORT-None, SNORE-None, SUM-None, POSITION-None, OX_STATUS-None, PULSE-None, SPO2-None, NASAL_PRES-None, PLETHWV-None, LIGHT-None, HRATE-None
+[*] Output channels: C3-M2, C4-M1, E1-M2, E2-M1
+[*] Channels to load: C4-None, E1-None, E2-None, C3-None, M1-None, M2-None
+
+2025/05/05 17:13:38 | INFO | [*] Original PSG shape: (4450560, 4)
+
+2025/05/05 17:13:38 | INFO | [*] PSG shape after re-sampling: (4450560, 4)
+
+2025/05/05 17:13:38 | INFO | [*] Extracted 4 channels: ['C3-A2', 'C4-A1', 'LOC-A2', 'ROC-A1']
